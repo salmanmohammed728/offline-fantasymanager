@@ -113,8 +113,11 @@ async function renderFormation() {
   });
   root.append(slots);
   const captainControls=node("div","captain-controls");
-  const captainLabel=node("label","formation-label","Captain"),captainPicker=makeSelect([{value:"",label:"Choose captain"},...squad.map(p=>({value:p.id,label:p.name}))],team.captainId||"","Choose captain");captainPicker.dataset.captainRole="captain";captainLabel.append(captainPicker);
-  const viceLabel=node("label","formation-label","Vice-captain"),vicePicker=makeSelect([{value:"",label:"Choose vice-captain"},...squad.map(p=>({value:p.id,label:p.name}))],team.viceCaptainId||"","Choose vice-captain");vicePicker.dataset.captainRole="viceCaptain";viceLabel.append(vicePicker);
+  const starters=squad.filter(p=>Object.values(team.lineup||{}).some(id=>Number(id)===Number(p.id)));
+  const captainOptions=[{value:"",label:"Choose captain"},...starters.map(p=>({value:p.id,label:p.name}))];
+  const captainLabel=node("label","formation-label","Captain"),captainPicker=makeSelect(captainOptions,team.captainId||"","Choose captain");captainPicker.dataset.captainRole="captain";captainLabel.append(captainPicker);
+  const viceOptions=[{value:"",label:"Choose vice-captain"},...starters.map(p=>({value:p.id,label:p.name}))];
+  const viceLabel=node("label","formation-label","Vice-captain"),vicePicker=makeSelect(viceOptions,team.viceCaptainId||"","Choose vice-captain");vicePicker.dataset.captainRole="viceCaptain";viceLabel.append(vicePicker);
   captainControls.append(captainLabel,viceLabel);root.append(captainControls);
   const count=node("p","lineup-count",Object.values(team.lineup||{}).filter(Boolean).length+" / 11 starting players selected");
   root.append(count,node("p","formation-note","Build your 15-player squad, select your starting XI, captain and vice-captain."));
@@ -123,7 +126,7 @@ async function handleFormationChange(target) {
   const teams=await all("teams");
   if(target.dataset.formationControl==="team"){selectedFormationTeamId=target.value;await renderFormation();return;}
   const team=teams.find(t=>String(t.id)===String(selectedFormationTeamId));if(!team)return;
-  if(target.dataset.captainRole){const field=target.dataset.captainRole;await update("teams",{...team,[field==="captain"?"captainId":"viceCaptainId"]:target.value?Number(target.value):null});await renderFormation();status(field==="captain"?"Captain saved":"Vice-captain saved");return;}
+  if(target.dataset.captainRole){const field=target.dataset.captainRole,value=target.value?Number(target.value):null,other=field==="captain"?team.viceCaptainId:team.captainId;if(value&&Number(value)===Number(other)){status("Captain and vice-captain must be different players",false);await renderFormation();return;}await update("teams",{...team,[field==="captain"?"captainId":"viceCaptainId"]:value});await renderFormation();status(field==="captain"?"Captain saved":"Vice-captain saved");return;}
   if(target.dataset.formationControl==="formation"){
     await update("teams",{...team,formation:target.value,lineup:{}});
     await logActivity("Changed formation to "+target.value+" for "+team.name);
@@ -132,7 +135,11 @@ async function handleFormationChange(target) {
   if(target.dataset.lineupSlot){
     const lineup={...(team.lineup||{})};
     if(target.value)lineup[target.dataset.lineupSlot]=Number(target.value);else delete lineup[target.dataset.lineupSlot];
-    await update("teams",{...team,lineup});
+    const starters=Object.values(lineup).map(Number);
+    const nextTeam={...team,lineup};
+    if(team.captainId&&!starters.includes(Number(team.captainId)))nextTeam.captainId=null;
+    if(team.viceCaptainId&&!starters.includes(Number(team.viceCaptainId)))nextTeam.viceCaptainId=null;
+    await update("teams",nextTeam);
     await renderFormation();status("Starting XI saved locally");
   }
 }
