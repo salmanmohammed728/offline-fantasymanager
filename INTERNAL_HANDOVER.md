@@ -4,7 +4,7 @@
 Offline Fantasy Manager (\`offline-fantasymanager\`)
 
 ## Current Stage
-Stage 3 — Initial application and local team/player management foundation.
+Stage 4 — Squad assignment and formation editor implemented; live-browser testing still required.
 
 ## Repository
 https://github.com/salmanmohammed728/offline-fantasymanager
@@ -21,11 +21,11 @@ https://github.com/salmanmohammed728/offline-fantasymanager
 - [x] IndexedDB stores for teams, players, matches, activities and settings exist.
 - [x] Team and player create, list, edit and delete workflows added.
 - [x] Dashboard totals and recent activity refresh from local records.
-- [ ] Verify workflows in a live browser before marking tested.
+- [ ] Verify team/player and squad/formation workflows in a live browser before marking tested.
 
 ## Not Yet Implemented
-- [ ] Squad assignment and team-player relationships
-- [ ] Formation editor and starting eleven
+- [x] Squad assignment and team-player relationships
+- [x] Formation selection and starting-eleven slots (4-4-2, 4-3-3, 3-5-2, 4-2-3-1)
 - [ ] Transfer rules and budget validation
 - [ ] Match fixtures, results and fantasy scoring
 - [ ] Match history and advanced statistics
@@ -41,4 +41,4 @@ https://github.com/salmanmohammed728/offline-fantasymanager
 - Never expose Supabase service-role credentials in browser code.
 
 ## Next Step
-Test team and player workflows in the hosted application, then implement squad assignment and formation management.
+Test team/player workflows and the new squad/formation editor in the hosted application. Next implement transfer rules and budget validation.
