@@ -570,3 +570,28 @@ footer{color:#8a9990}
  .panel{padding:17px;border-radius:14px}
  .action-grid button{padding:14px 8px}
 }
+
+
+/* PREMIER LEAGUE FIXTURE CENTRE */
+.matches-heading{align-items:flex-start}
+.matches-intro{margin-top:7px;color:var(--muted);font-size:12px}
+.fixture-toolbar{display:flex;justify-content:space-between;align-items:end;gap:14px;margin:18px 0}
+.fixture-filter-label{display:grid;gap:7px;color:var(--muted);font-size:12px;min-width:180px}
+.fixture-update-status{font-size:11px;color:var(--muted)}
+.fixtures-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.fixture-card{padding:16px;border:1px solid var(--border);border-radius:13px;background:var(--surface-light);min-width:0}
+.fixture-card-top{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:15px}
+.fixture-matchday{font-size:10px;font-weight:700;letter-spacing:.4px;color:var(--muted);text-transform:uppercase}
+.fixture-status{font-size:10px;font-weight:800;padding:5px 8px;border-radius:30px;background:#e8f2e9;color:#426b13}
+.fixture-status-in_play,.fixture-status-paused{background:#fff0d9;color:#a45b08}
+.fixture-status-finished{background:#e8edf0;color:#53636d}
+.fixture-status-postponed,.fixture-status-cancelled,.fixture-status-suspended{background:#fce8e8;color:#a33d3d}
+.fixture-teams{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:10px}
+.fixture-team{min-width:0}
+.fixture-team strong{display:block;font-size:13px;line-height:1.35;overflow-wrap:anywhere}
+.fixture-away{text-align:right}
+.fixture-score{font-size:18px;font-weight:850;white-space:nowrap;color:var(--text)}
+.fixture-kickoff{margin-top:13px;padding-top:10px;border-top:1px solid var(--border);font-size:11px;color:var(--muted)}
+.fixture-footnote{margin-top:17px;color:var(--muted);font-size:10px;line-height:1.5}
+@media(max-width:850px){.fixtures-list{grid-template-columns:1fr}}
+@media(max-width:650px){.fixture-toolbar{align-items:stretch;flex-direction:column}.fixture-filter-label{min-width:0}.fixture-update-status{font-size:10px}.matches-heading{align-items:center}.fixture-card{padding:14px}.fixture-teams{gap:7px}.fixture-team strong{font-size:12px}.fixture-score{font-size:16px}}
