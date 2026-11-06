@@ -128,7 +128,7 @@ async function handleFormationChange(target) {
   const team=teams.find(t=>String(t.id)===String(selectedFormationTeamId));if(!team)return;
   if(target.dataset.captainRole){const field=target.dataset.captainRole,value=target.value?Number(target.value):null,other=field==="captain"?team.viceCaptainId:team.captainId;if(value&&Number(value)===Number(other)){status("Captain and vice-captain must be different players",false);await renderFormation();return;}await update("teams",{...team,[field==="captain"?"captainId":"viceCaptainId"]:value});await renderFormation();status(field==="captain"?"Captain saved":"Vice-captain saved");return;}
   if(target.dataset.formationControl==="formation"){
-    await update("teams",{...team,formation:target.value,lineup:{}});
+    await update("teams",{...team,formation:target.value,lineup:{},captainId:null,viceCaptainId:null});
     await logActivity("Changed formation to "+target.value+" for "+team.name);
     await renderFormation();status("Formation saved locally");return;
   }
@@ -157,7 +157,7 @@ async function handleFormationAction(button) {
     const lineup={...(team.lineup||{})};
     Object.keys(lineup).forEach(k=>{if(Number(lineup[k])===id)delete lineup[k];});
     await update("players",{...player,teamId:null});
-    await update("teams",{...team,lineup});
+    await update("teams",{...team,lineup,captainId:Number(team.captainId)===id?null:team.captainId,viceCaptainId:Number(team.viceCaptainId)===id?null:team.viceCaptainId});
     await logActivity("Removed "+player.name+" from "+team.name);
     await refresh();status("Player removed from squad");
   }
