@@ -3,14 +3,15 @@
 A local-first, browser-based football fantasy management application.
 
 ## Current foundation
-- Responsive HTML/CSS/JavaScript interface
+- Responsive HTML/CSS/JavaScript football interface
+- My Club is the default opening page
+- Navigation includes My Club, Player Market, Tactics & XI, Transfers, Fixtures, Season Log and Settings
 - IndexedDB local database
-- Dashboard with team/player counts, points and budget summary
 - Create, list, edit and delete workflows for teams and players
 - Recent activity log
 
 ## Run
-Open \`index.html\` through a static web host such as GitHub Pages. For reliable browser storage and service-worker features, use HTTPS or localhost. No package installation is required.
+Open `index.html` through a static web host such as GitHub Pages. For reliable browser storage and service-worker features, use HTTPS or localhost. No package installation is required.
 
 ## Persistence and offline behavior
 Team and player records are stored in IndexedDB in the current browser profile. This persists across normal page reloads, but browser-local storage does not automatically sync between devices. Full offline asset caching requires the service worker, which is still planned.
@@ -38,11 +39,11 @@ To activate live fixture updates:
 The current implementation targets the 2026/27 season. API access and competition coverage depend on the provider's current plan. Until the secret is configured and the first update succeeds, the Matches page displays an activation message rather than invented fixtures. The fixture feed is separate from personal IndexedDB data.
 
 ## Project files
-- \`index.html\` — interface structure
-- \`styles.css\` — responsive styling
-- \`app.js\` — application logic and IndexedDB workflows
-- \`AGENTS.md\` — development instructions
-- \`INTERNAL_HANDOVER.md\` — project status and next steps
+- `index.html` — interface structure
+- `styles.css` — responsive styling
+- `app.js` — application logic and IndexedDB workflows
+- `AGENTS.md` — development instructions
+- `INTERNAL_HANDOVER.md` — project status and next steps
 
 ## Development rules
 Preserve existing data, do not expose private credentials, test changes before calling them complete, and update the handover after each stage.
