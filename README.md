@@ -18,11 +18,24 @@ Team and player records are stored in IndexedDB in the current browser profile. 
 ## Planned features
 - Squad assignment and starting XI formation editor (4-4-2, 4-3-3, 3-5-2 and 4-2-3-1)
 - Transfer and budget rules
+- Premier League fixture centre (fixture data supplied by a scheduled GitHub Actions updater)
 - Fixtures, results and fantasy scoring
 - Match history and statistics
 - Backup and restore
 - Service worker and installable web-app support
 - Optional secure cloud sync for cross-device use
+
+## Premier League fixture synchronization
+The Matches page reads `data/epl-fixtures.json`. A GitHub Actions workflow refreshes this file three times per day and can also be started manually. The updater uses the football-data.org API and keeps the API token out of browser code.
+
+To activate live fixture updates:
+1. Register for an API token at [football-data.org](https://www.football-data.org/).
+2. In this repository, open Settings → Secrets and variables → Actions → New repository secret.
+3. Name the secret `FOOTBALL_DATA_TOKEN` and paste your API token as its value.
+4. Open Actions → Update Premier League fixtures → Run workflow.
+5. Confirm the workflow completes and `data/epl-fixtures.json` is updated. The Matches page will then show the imported fixtures.
+
+The current implementation targets the 2026/27 season. API access and competition coverage depend on the provider's current plan. Until the secret is configured and the first update succeeds, the Matches page displays an activation message rather than invented fixtures. The fixture feed is separate from personal IndexedDB data.
 
 ## Project files
 - \`index.html\` — interface structure
