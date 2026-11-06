@@ -46,7 +46,7 @@
       <div class="section-toolbar"><div><span class="section-kicker">CLUB MANAGEMENT</span><h2>Your clubs</h2></div><button class="primary-button" id="show-team-form"><span>＋</span> Create club</button></div>
       <form id="team-form" class="data-form" hidden>
         <label>Club name<input id="team-name" required maxlength="40" placeholder="e.g. North London FC"></label>
-        <label>Transfer budget (£m)<input id="team-budget" type="number" min="0" max="1000" step="0.1" value="100" required></label>
+        <label>Fantasy budget (£m)<input id="team-budget" type="number" value="100" readonly aria-readonly="true"></label>
         <div class="form-actions"><button class="primary-button" type="submit">Create club</button><button class="secondary-button" type="button" id="cancel-team-form">Cancel</button></div>
       </form>
       <div id="teams-list" class="record-list club-list"></div>
@@ -54,16 +54,18 @@
     </section>
 
     <section class="page" id="players">
-      <div class="page-intro compact-intro"><div><p class="eyebrow">SCOUTING & RECRUITMENT</p><h1>Player Market<span class="title-period">.</span></h1><p class="intro-copy">Discover talent and build a squad that fits your vision.</p></div><div class="intro-ball market-ball">◉</div></div>
-      <div class="section-toolbar"><div><span class="section-kicker">PLAYER DATABASE</span><h2>Registered players</h2></div><button class="primary-button" id="show-player-form"><span>＋</span> Add player</button></div>
-      <form id="player-form" class="data-form" hidden>
-        <label>Player name<input id="player-name" required maxlength="50" placeholder="Player name"></label>
-        <label>Position<select id="player-position" required><option value="GK">Goalkeeper</option><option value="DEF">Defender</option><option value="MID">Midfielder</option><option value="FWD">Forward</option></select></label>
-        <label>Club<input id="player-club" maxlength="50" placeholder="Club name"></label>
-        <label>Player value (£m)<input id="player-price" type="number" min="0" max="1000" step="0.1" value="5" required></label>
-        <div class="form-actions"><button class="primary-button" type="submit">Save player</button><button class="secondary-button" type="button" id="cancel-player-form">Cancel</button></div>
-      </form>
-      <div id="players-list" class="record-list"></div>
+      <div class="page-intro compact-intro"><div><p class="eyebrow">SCOUTING & RECRUITMENT</p><h1>Player Market<span class="title-period">.</span></h1><p class="intro-copy">Pick real Premier League players and build your fantasy squad.</p></div><div class="intro-ball market-ball">◉</div></div>
+      <div class="section-toolbar"><div><span class="section-kicker">OFFICIAL FANTASY PLAYER POOL</span><h2>Premier League players</h2><p class="matches-intro">Choose 15 players · £100m budget · Maximum 3 per club</p></div></div>
+      <div class="panel market-panel">
+        <div class="market-topline"><label class="formation-label">Your fantasy team<select id="market-team" class="formation-select"></select></label><span id="market-update-status" class="fixture-update-status">Loading official player database…</span></div>
+        <div class="market-filters">
+          <label class="formation-label">Search players<input id="market-search" class="formation-select" type="search" placeholder="Search player or club"></label>
+          <label class="formation-label">Position<select id="market-position" class="formation-select"><option value="ALL">All positions</option><option value="GK">Goalkeepers</option><option value="DEF">Defenders</option><option value="MID">Midfielders</option><option value="FWD">Forwards</option></select></label>
+          <label class="formation-label">Club<select id="market-club" class="formation-select"><option value="ALL">All clubs</option></select></label>
+        </div>
+        <div class="market-list-heading"><strong>Available players</strong><span id="market-result-count">Loading players…</span></div>
+        <div id="players-list" class="record-list"></div>
+      </div>
     </section>
 
     <section class="page" id="formation">
