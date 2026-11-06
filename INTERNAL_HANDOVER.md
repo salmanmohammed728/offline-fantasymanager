@@ -1,7 +1,7 @@
 # Internal Project Handover
 
 ## Project
-Offline Fantasy Manager (\`offline-fantasymanager\`)
+Offline Fantasy Manager (`offline-fantasymanager`)
 
 ## Current Stage
 Stage 5 — Premier League fixture centre and scheduled fixture-data pipeline added; provider token setup and live testing remain.
@@ -16,15 +16,16 @@ https://github.com/salmanmohammed728/offline-fantasymanager
 - Service worker and optional cloud synchronization are future work
 
 ## Completed / Present
+- [x] Dashboard page and navigation item are absent; My Club is the default opening page.
+- [x] Main navigation retains My Club, Player Market, Tactics & XI, Transfers, Fixtures, Season Log and Settings.
 - [x] Matches page displays a Premier League fixture feed from `data/epl-fixtures.json`, with date, status, score and filters.
 - [x] GitHub Actions scheduled updater added for the 2026/27 Premier League season; API token is read from repository secret, never frontend code.
 - [ ] Add `FOOTBALL_DATA_TOKEN` repository secret, run the updater, and verify provider access and GitHub Pages publication.
-- [x] Modern football analytics visual redesign: light dashboard surfaces, dark navigation, lime accents and responsive card styling.
+- [x] Modern football-focused responsive interface with dark navigation and compact match and squad panels.
 - [x] GitHub repository and project documentation exist.
-- [x] Responsive dashboard shell and section navigation exist.
 - [x] IndexedDB stores for teams, players, matches, activities and settings exist.
 - [x] Team and player create, list, edit and delete workflows added.
-- [x] Dashboard totals and recent activity refresh from local records.
+- [x] Recent activity refreshes from local records.
 - [ ] Verify team/player and squad/formation workflows in a live browser before marking tested.
 
 ## Not Yet Implemented
