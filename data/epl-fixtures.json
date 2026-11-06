@@ -2,7 +2,7 @@
   "competition": "Premier League",
   "season": "2026/2027",
   "source": "football-data.org",
-  "lastUpdated": "2026-11-06T16:45:38.791Z",
+  "lastUpdated": "2026-11-06T22:06:34.442Z",
   "matches": [
     {
       "id": 560542,
@@ -997,13 +997,13 @@
     {
       "id": 560634,
       "utcDate": "2026-11-06T20:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 10,
       "homeTeam": "Everton FC",
       "awayTeam": "Coventry City FC",
-      "homeScore": null,
-      "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "homeScore": 3,
+      "awayScore": 1,
+      "lastUpdated": "2026-11-06T22:01:55Z"
     },
     {
       "id": 560632,
