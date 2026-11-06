@@ -179,8 +179,23 @@
 
         <section class="page" id="matches">
             <div class="panel">
-                <h3>Match Centre</h3>
-                <p>Manage fixtures, results and match statistics.</p>
+                <div class="panel-heading matches-heading">
+                    <div><h3>Premier League Fixtures</h3><p class="matches-intro">Official 2026/27 league schedule, match status and scores.</p></div>
+                    <button class="secondary-button" id="refresh-fixtures" type="button">↻ Refresh</button>
+                </div>
+                <div class="fixture-toolbar">
+                    <label class="fixture-filter-label">Show
+                        <select id="fixture-filter" class="formation-select">
+                            <option value="all">All fixtures</option>
+                            <option value="upcoming" selected>Upcoming</option>
+                            <option value="live">Live</option>
+                            <option value="finished">Completed</option>
+                        </select>
+                    </label>
+                    <span id="fixture-update-status" class="fixture-update-status">Checking fixture data…</span>
+                </div>
+                <div id="fixtures-list" class="fixtures-list" aria-live="polite"></div>
+                <p class="fixture-footnote">Fixtures are refreshed automatically by the repository schedule updater. Kickoff times are shown in your device's local time.</p>
             </div>
         </section>
 
