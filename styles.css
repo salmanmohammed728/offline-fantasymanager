@@ -453,3 +453,19 @@ footer {
         gap: 9px;
     }
 }
+
+
+/* DATA FORMS AND RECORD LISTS */
+.data-form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;padding:18px;margin:0 0 20px;background:var(--surface-light);border:1px solid var(--border);border-radius:10px}
+.data-form[hidden]{display:none}
+.data-form label{display:flex;flex-direction:column;gap:7px;color:var(--muted);font-size:12px}
+.data-form input,.data-form select{width:100%;padding:11px;border:1px solid var(--border);border-radius:7px;background:var(--background);color:var(--text);font:inherit}
+.form-actions{display:flex;gap:10px;align-items:center;grid-column:1/-1}
+.secondary-button,.record-actions button{padding:9px 12px;border:1px solid var(--border);border-radius:7px;background:transparent;color:var(--text);font-size:12px}
+.record-list{display:grid;gap:10px}
+.record-card{display:flex;justify-content:space-between;align-items:center;gap:14px;padding:15px;background:var(--surface-light);border:1px solid var(--border);border-radius:9px}
+.record-card p,.record-card small{color:var(--muted);font-size:12px;margin-top:5px}
+.record-actions{display:flex;gap:7px;flex-wrap:wrap}
+.record-actions .danger{color:#fca5a5}
+.empty-copy{padding:18px;color:var(--muted);font-size:13px}
+@media(max-width:650px){.data-form{grid-template-columns:1fr}.record-card{align-items:flex-start;flex-direction:column}.form-actions{grid-column:auto}}
