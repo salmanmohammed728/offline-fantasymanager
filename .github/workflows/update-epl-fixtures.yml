@@ -24,19 +24,18 @@ jobs:
         with:
           node-version: 20
 
-      - name: Fetch current season fixtures
-        if: ${{ secrets.FOOTBALL_DATA_TOKEN != '' }}
+      - name: Fetch current season fixtures when API token is configured
         env:
           FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
           EPL_SEASON_START: "2026"
-        run: node scripts/update-epl-fixtures.mjs
-
-      - name: Explain missing API token
-        if: ${{ secrets.FOOTBALL_DATA_TOKEN == '' }}
-        run: echo "Add FOOTBALL_DATA_TOKEN under Settings > Secrets and variables > Actions to enable fixture updates."
+        run: |
+          if [ -z "$FOOTBALL_DATA_TOKEN" ]; then
+            echo "Fixture updater is waiting for the FOOTBALL_DATA_TOKEN repository secret."
+          else
+            node scripts/update-epl-fixtures.mjs
+          fi
 
       - name: Commit updated fixture data
-        if: ${{ secrets.FOOTBALL_DATA_TOKEN != '' }}
         run: |
           if git diff --quiet -- data/epl-fixtures.json; then
             echo "Fixture data has not changed."
