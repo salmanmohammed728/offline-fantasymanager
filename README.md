@@ -16,7 +16,7 @@ Open \`index.html\` through a static web host such as GitHub Pages. For reliable
 Team and player records are stored in IndexedDB in the current browser profile. This persists across normal page reloads, but browser-local storage does not automatically sync between devices. Full offline asset caching requires the service worker, which is still planned.
 
 ## Planned features
-- Squad selection, formation and substitutes
+- Squad assignment and starting XI formation editor (4-4-2, 4-3-3, 3-5-2 and 4-2-3-1)
 - Transfer and budget rules
 - Fixtures, results and fantasy scoring
 - Match history and statistics
