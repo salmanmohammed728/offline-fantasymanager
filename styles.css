@@ -39,3 +39,21 @@ button,input,select{font:inherit}button{cursor:pointer;transition:all .18s ease}
 .app-footer{display:flex;justify-content:space-between;gap:10px;padding:28px 2px 8px;color:#9aa3a2;font-size:8px;letter-spacing:1.1px}
 @media(max-width:1000px){.sidebar{width:220px;flex-basis:220px}.main-content{padding:0 25px 20px}.page-intro{min-height:170px}.fixtures-list{grid-template-columns:1fr}}
 @media(max-width:700px){.app-shell{display:block}.sidebar{position:relative;width:100%;height:auto;min-height:0;padding:13px 13px 10px}.brand{padding:0 5px 13px}.brand-mark{width:33px;height:33px;font-size:23px}.brand-copy strong{font-size:13px}.main-nav{display:flex;overflow-x:auto;gap:4px;padding:3px 0 8px}.nav-caption,.sidebar-bottom{display:none}.nav-link{width:auto;flex:0 0 auto;padding:9px 11px;font-size:10px;gap:7px}.nav-icon{font-size:14px}.nav-tag{display:none}.main-content{padding:0 14px 16px}.topbar{height:55px;margin-bottom:17px}.season-label{font-size:8px}.profile-mark{width:30px;height:30px}.page-intro{min-height:145px;padding:22px 20px;margin-bottom:24px}.page-intro h1{font-size:39px}.intro-copy{font-size:10px;max-width:240px;line-height:1.5}.intro-ball{width:65px;height:65px;font-size:34px}.page-intro:after{right:-90px}.compact-intro{min-height:125px}.compact-intro h1{font-size:34px}.section-toolbar{align-items:flex-end}.section-toolbar h2{font-size:22px}.primary-button{padding:10px 11px;font-size:10px}.data-form{grid-template-columns:1fr;padding:15px}.form-actions{grid-column:auto}.record-card{align-items:flex-start;flex-direction:column}.record-actions{width:100%}.formation-controls{grid-template-columns:1fr}.squad-add-row{flex-direction:column}.lineup-grid{grid-template-columns:repeat(2,minmax(0,1fr));padding:12px}.squad-player{align-items:flex-start;flex-direction:column}.panel{padding:17px}.fixture-toolbar{align-items:stretch;flex-direction:column}.fixture-filter-label{min-width:0}.fixture-update-status{font-size:9px}.matches-heading{align-items:center}.app-footer{flex-direction:column;line-height:1.5}.fixtures-list{grid-template-columns:1fr}}
+
+
+/* Official FPL player market */
+.market-panel{padding:20px}
+.market-topline{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;margin-bottom:18px}
+.market-topline>.formation-label{width:min(320px,100%)}
+.market-filters{display:grid;grid-template-columns:2fr 1fr 1fr;gap:12px;padding:15px;background:#f7f8f7;border:1px solid var(--line);border-radius:10px}
+.market-filters input{min-width:0}
+.market-list-heading{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:20px 0 12px;font-size:12px}
+.market-list-heading span{font-size:10px;color:var(--muted)}
+.market-player-card{align-items:center;padding:13px 15px}
+.market-player-info{min-width:0}
+.market-player-info strong{font-family:'Barlow Condensed',sans-serif;font-size:19px}
+.market-player-info p{font-size:10px;margin-top:3px}
+.market-player-info small{display:block;margin-top:5px;color:#89939a;font-size:9px}
+.market-player-card .record-actions button{white-space:nowrap}
+.captain-controls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:15px;padding:14px;background:#f7f8f7;border:1px solid var(--line);border-radius:9px}
+@media(max-width:700px){.market-topline{align-items:stretch;flex-direction:column}.market-filters{grid-template-columns:1fr}.market-player-card{align-items:flex-start}.market-player-card .record-actions{width:auto}.captain-controls{grid-template-columns:1fr}}
