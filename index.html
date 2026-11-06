@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#101827">
+    <title>Fantasy Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <div class="logo">
+            ⚽ <span>Fantasy Manager</span>
+        </div>
+
+        <nav>
+            <button class="nav-link active" data-page="dashboard">🏠 Dashboard</button>
+            <button class="nav-link" data-page="teams">👥 My Teams</button>
+            <button class="nav-link" data-page="players">⚽ Players</button>
+            <button class="nav-link" data-page="formation">📋 Formation</button>
+            <button class="nav-link" data-page="transfers">🔄 Transfers</button>
+            <button class="nav-link" data-page="matches">🏆 Matches</button>
+            <button class="nav-link" data-page="history">📊 History</button>
+            <button class="nav-link" data-page="settings">⚙️ Settings</button>
+        </nav>
+
+        <div class="sidebar-footer">
+            <span>OFFLINE FANTASY MANAGER</span>
+            <small>Version 1.0.0</small>
+        </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+
+        <header class="topbar">
+            <div>
+                <h1 id="page-title">Dashboard</h1>
+                <p>Your personal football management centre</p>
+            </div>
+
+            <div class="user-area">
+                <span class="connection-status" id="connection-status">
+                    ● Checking storage
+                </span>
+                <div class="avatar">FM</div>
+            </div>
+        </header>
+
+        <!-- DASHBOARD -->
+        <section class="page active" id="dashboard">
+
+            <div class="welcome">
+                <div>
+                    <p>WELCOME BACK</p>
+                    <h2>Manage your fantasy empire.</h2>
+                    <span>Build your squad. Make smart transfers. Win more points.</span>
+                </div>
+                <div class="football-icon">⚽</div>
+            </div>
+
+            <div class="stats-grid">
+
+                <div class="stat-card">
+                    <span>Total Points</span>
+                    <h2 id="total-points">0</h2>
+                    <small>All-time fantasy points</small>
+                </div>
+
+                <div class="stat-card">
+                    <span>My Teams</span>
+                    <h2 id="team-count">0</h2>
+                    <small>Created teams</small>
+                </div>
+
+                <div class="stat-card">
+                    <span>My Players</span>
+                    <h2 id="player-count">0</h2>
+                    <small>Registered players</small>
+                </div>
+
+                <div class="stat-card">
+                    <span>Budget</span>
+                    <h2 id="total-budget">£100.0m</h2>
+                    <small>Available budget</small>
+                </div>
+
+            </div>
+
+            <div class="dashboard-grid">
+
+                <div class="panel">
+                    <div class="panel-heading">
+                        <h3>My Main Team</h3>
+                        <button class="text-button" data-page="teams">View Teams →</button>
+                    </div>
+
+                    <div id="main-team">
+                        <div class="empty-state">
+                            <div>⚽</div>
+                            <h3>No team created yet</h3>
+                            <p>Create your first fantasy team to get started.</p>
+                            <button class="primary-button" data-page="teams">
+                                Create My Team
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel">
+                    <div class="panel-heading">
+                        <h3>Recent Activity</h3>
+                    </div>
+
+                    <div id="recent-activity">
+                        <div class="empty-state">
+                            <div>📋</div>
+                            <p>Your activities will appear here.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="panel quick-actions">
+                <h3>Quick Actions</h3>
+
+                <div class="action-grid">
+                    <button data-page="teams">➕ Create Team</button>
+                    <button data-page="players">⚽ Add Player</button>
+                    <button data-page="formation">📋 Set Formation</button>
+                    <button data-page="matches">🏆 Enter Match</button>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- OTHER PAGES -->
+        <section class="page" id="teams">
+            <div class="panel">
+                <div class="panel-heading">
+                    <h3>My Teams</h3>
+                    <button class="primary-button">+ Create Team</button>
+                </div>
+                <div id="teams-list"></div>
+            </div>
+        </section>
+
+        <section class="page" id="players">
+            <div class="panel">
+                <div class="panel-heading">
+                    <h3>Player Management</h3>
+                    <button class="primary-button">+ Add Player</button>
+                </div>
+                <div id="players-list"></div>
+            </div>
+        </section>
+
+        <section class="page" id="formation">
+            <div class="panel">
+                <h3>Team Formation</h3>
+                <p>Choose your formation and arrange your starting eleven.</p>
+                <div id="formation-content"></div>
+            </div>
+        </section>
+
+        <section class="page" id="transfers">
+            <div class="panel">
+                <h3>Transfers</h3>
+                <p>Manage your squad transfers and budget.</p>
+            </div>
+        </section>
+
+        <section class="page" id="matches">
+            <div class="panel">
+                <h3>Match Centre</h3>
+                <p>Manage fixtures, results and match statistics.</p>
+            </div>
+        </section>
+
+        <section class="page" id="history">
+            <div class="panel">
+                <h3>Fantasy History</h3>
+                <p>Review your previous performances and results.</p>
+            </div>
+        </section>
+
+        <section class="page" id="settings">
+            <div class="panel">
+                <h3>Settings</h3>
+                <p>Manage your application preferences and data.</p>
+            </div>
+        </section>
+
+        <footer>
+            Offline Fantasy Manager © 2026
+        </footer>
+
+    </main>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
