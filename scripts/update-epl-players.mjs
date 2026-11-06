@@ -16,6 +16,7 @@ const teams = new Map(payload.teams.map(team => [team.id, team]));
 const positions = new Map(payload.element_types.map(type => [type.id, type.singular_name_short]));
 const players = payload.elements.map(player => {
   const team = teams.get(player.team);
+  const rawPosition = positions.get(player.element_type) ?? "MID";
   return {
     id: player.id,
     code: player.code,
@@ -25,7 +26,7 @@ const players = payload.elements.map(player => {
     club: team?.name ?? "Unknown club",
     clubShort: team?.short_name ?? "",
     clubId: player.team,
-    position: positions.get(player.element_type) ?? "MID",
+    position: rawPosition === "GKP" ? "GK" : rawPosition,
     price: Number((player.now_cost / 10).toFixed(1)),
     totalPoints: player.total_points,
     pointsPerGame: player.points_per_game,
