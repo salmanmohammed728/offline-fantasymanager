@@ -4,7 +4,7 @@
 Offline Fantasy Manager (\`offline-fantasymanager\`)
 
 ## Current Stage
-Stage 4 — Squad assignment and formation editor implemented; live-browser testing still required.
+Stage 5 — Premier League fixture centre and scheduled fixture-data pipeline added; provider token setup and live testing remain.
 
 ## Repository
 https://github.com/salmanmohammed728/offline-fantasymanager
@@ -16,6 +16,9 @@ https://github.com/salmanmohammed728/offline-fantasymanager
 - Service worker and optional cloud synchronization are future work
 
 ## Completed / Present
+- [x] Matches page displays a Premier League fixture feed from `data/epl-fixtures.json`, with date, status, score and filters.
+- [x] GitHub Actions scheduled updater added for the 2026/27 Premier League season; API token is read from repository secret, never frontend code.
+- [ ] Add `FOOTBALL_DATA_TOKEN` repository secret, run the updater, and verify provider access and GitHub Pages publication.
 - [x] Modern football analytics visual redesign: light dashboard surfaces, dark navigation, lime accents and responsive card styling.
 - [x] GitHub repository and project documentation exist.
 - [x] Responsive dashboard shell and section navigation exist.
@@ -28,7 +31,7 @@ https://github.com/salmanmohammed728/offline-fantasymanager
 - [x] Squad assignment and team-player relationships
 - [x] Formation selection and starting-eleven slots (4-4-2, 4-3-3, 3-5-2, 4-2-3-1)
 - [ ] Transfer rules and budget validation
-- [ ] Match fixtures, results and fantasy scoring
+- [ ] Match fixtures linked to fantasy scoring and user squad player points
 - [ ] Match history and advanced statistics
 - [ ] Export/import backup and restore
 - [ ] Service worker, app manifest and offline asset caching
@@ -42,4 +45,4 @@ https://github.com/salmanmohammed728/offline-fantasymanager
 - Never expose Supabase service-role credentials in browser code.
 
 ## Next Step
-Test team/player workflows and the new squad/formation editor in the hosted application. Next implement transfer rules and budget validation.
+Configure the football-data.org token and test the fixture updater end-to-end; then connect fixtures to fantasy scoring and player points.
