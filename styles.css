@@ -484,3 +484,89 @@ footer {
 .lineup-slot{display:grid;gap:6px;padding:10px;border:1px solid var(--border);border-radius:8px;background:var(--surface-light);color:var(--muted);font-size:11px;font-weight:700}
 .lineup-count,.formation-note{margin-top:12px;color:var(--muted);font-size:12px}
 @media(max-width:650px){.formation-controls{grid-template-columns:1fr}.squad-add-row{flex-direction:column}.lineup-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.squad-player{align-items:flex-start;flex-direction:column}}
+
+
+
+/* VISUAL REDESIGN — modern football analytics dashboard */
+:root{
+  --background:#f3f6f4;
+  --sidebar:#101b2b;
+  --surface:#ffffff;
+  --surface-light:#f7faf8;
+  --border:#e1e9e4;
+  --text:#17251f;
+  --muted:#718078;
+  --green:#a3e635;
+  --green-dark:#4d7c0f;
+  --white:#ffffff;
+  --radius:18px;
+}
+body{background:var(--background);color:var(--text);font-family:Inter,"Segoe UI",Arial,sans-serif}
+.app{max-width:1680px;margin:0 auto;background:var(--background)}
+.sidebar{width:265px;background:linear-gradient(180deg,#101b2b 0%,#17283b 100%);border:0;padding:30px 20px;box-shadow:8px 0 30px rgba(18,35,28,.06)}
+.logo{font-size:19px;color:#fff;letter-spacing:-.5px;margin-bottom:42px}
+.logo:first-letter{color:var(--green)}
+.sidebar nav{gap:7px}
+.nav-link{color:#a9b8b0;padding:14px 15px;border-radius:11px;font-size:13px;transition:background .2s,color .2s,transform .2s}
+.nav-link:hover{background:rgba(255,255,255,.08);color:#fff;transform:translateX(2px)}
+.nav-link.active{background:var(--green);color:#1b2a17;box-shadow:0 7px 18px rgba(163,230,53,.15)}
+.sidebar-footer{color:#91a399}
+.main-content{padding:38px 44px;max-width:1500px}
+.topbar{padding:0 0 24px;border-bottom:1px solid #dfe7e2;margin-bottom:28px}
+.topbar h1{font-size:29px;letter-spacing:-1px;color:#15251e}
+.topbar p{font-size:13px;color:#819087}
+.connection-status{background:#e7f7d4;color:#477b0b!important;padding:8px 12px;border-radius:30px;font-weight:700}
+.avatar{background:#17283b;color:var(--green);width:42px;height:42px}
+.welcome{position:relative;overflow:hidden;border:0;border-radius:22px;padding:38px 40px;min-height:205px;background:linear-gradient(112deg,#142a25 0%,#1c4033 58%,#2d5940 100%);box-shadow:0 15px 35px rgba(25,65,43,.12)}
+.welcome:after{content:"";position:absolute;width:300px;height:300px;border:1px solid rgba(208,255,162,.14);border-radius:50%;right:9%;top:-125px;box-shadow:0 0 0 28px rgba(208,255,162,.035),0 0 0 58px rgba(208,255,162,.025)}
+.welcome p{color:#c3f58c;font-size:10px;letter-spacing:2.5px}
+.welcome h2{font-size:31px;letter-spacing:-1px;color:#fff}
+.welcome span{color:#c1d8c9;font-size:13px}
+.football-icon{position:relative;z-index:1;font-size:86px;filter:drop-shadow(0 8px 12px rgba(0,0,0,.2))}
+.stats-grid{gap:17px;margin:22px 0 26px}
+.stat-card{position:relative;background:#fff;border:1px solid #e4ece6;border-radius:17px;padding:21px 22px;box-shadow:0 5px 18px rgba(31,53,42,.035);transition:transform .2s,box-shadow .2s}
+.stat-card:hover{transform:translateY(-3px);box-shadow:0 12px 25px rgba(31,53,42,.08)}
+.stat-card span{font-size:12px;font-weight:650;color:#7b8981}
+.stat-card h2{font-size:31px;color:#263c30;letter-spacing:-1px;margin:16px 0 7px}
+.stat-card small{color:#98a49d}
+.dashboard-grid{gap:18px}
+.panel{background:#fff;border:1px solid #e4ece6;border-radius:17px;padding:24px;box-shadow:0 5px 18px rgba(31,53,42,.035)}
+.panel-heading{margin-bottom:19px}
+.panel h3{color:#20352a;font-size:16px;letter-spacing:-.2px}
+.text-button{font-weight:700}
+.primary-button{background:#a3e635;color:#1e3015;border-radius:9px;padding:12px 17px;box-shadow:0 4px 10px rgba(132,204,22,.12)}
+.primary-button:hover{background:#b7f45c}
+.secondary-button,.record-actions button{background:#fff;border-color:#dce6df;color:#405248;border-radius:8px}
+.action-grid button{background:#f7faf7;border:1px solid #e1e9e4;color:#304238;border-radius:11px;padding:17px 12px}
+.action-grid button:hover{background:#f0f9e7;border-color:#a3e635;color:#426b13}
+.empty-state{color:#33463b}
+.empty-state p,.empty-copy{color:#839188}
+.data-form{background:#f8fbf8;border-color:#e1e9e4;border-radius:13px}
+.data-form input,.data-form select,.formation-select{background:#fff;border-color:#dce6df;color:#25372d;border-radius:8px}
+.record-card{background:#f8fbf8;border-color:#e3ebe5;border-radius:12px;padding:16px}
+.record-card strong{color:#263b30}
+.record-card p{color:#7d8b82}
+.record-actions .danger{color:#c24141}
+.squad-player{background:#f8fbf8;border-color:#e3ebe5;border-radius:10px;color:#304238}
+.lineup-slot{background:#f8fbf8;border-color:#e3ebe5;color:#607268;border-radius:10px}
+.lineup-slot .formation-select{font-size:12px}
+.formation-label{color:#607268}
+footer{color:#8a9990}
+@media(max-width:1050px){.main-content{padding:28px 24px}.sidebar{width:230px}}
+@media(max-width:650px){
+ .sidebar{padding:15px 13px;background:#101b2b}
+ .logo{margin-bottom:13px}
+ .sidebar nav{gap:5px}
+ .nav-link{border-radius:9px;padding:10px 12px}
+ .main-content{padding:19px 14px}
+ .topbar{padding-bottom:17px;margin-bottom:20px}
+ .topbar h1{font-size:23px}
+ .welcome{padding:25px 22px;min-height:160px;border-radius:17px}
+ .welcome h2{font-size:22px}
+ .football-icon{font-size:48px}
+ .stats-grid{gap:10px}
+ .stat-card{padding:15px;border-radius:13px}
+ .stat-card h2{font-size:24px}
+ .panel{padding:17px;border-radius:14px}
+ .action-grid button{padding:14px 8px}
+}
