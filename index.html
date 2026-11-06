@@ -1,226 +1,104 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#101827">
-    <title>Fantasy Manager</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#10151d">
+  <meta name="description" content="A local-first football club and fantasy squad manager.">
+  <title>Touchline — Football Manager</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
+<div class="app-shell">
+  <aside class="sidebar">
+    <a class="brand" href="#" aria-label="Touchline home" data-page="teams">
+      <span class="brand-mark">T</span>
+      <span class="brand-copy"><strong>TOUCHLINE</strong><small>FOOTBALL MANAGER</small></span>
+    </a>
+    <div class="nav-caption">CLUBHOUSE</div>
+    <nav class="main-nav" aria-label="Main navigation">
+      <button class="nav-link active" data-page="teams"><span class="nav-icon">♜</span><span>My Club</span></button>
+      <button class="nav-link" data-page="players"><span class="nav-icon">◉</span><span>Player Market</span></button>
+      <button class="nav-link" data-page="formation"><span class="nav-icon">▦</span><span>Tactics & XI</span></button>
+      <button class="nav-link" data-page="transfers"><span class="nav-icon">⇄</span><span>Transfers</span></button>
+      <button class="nav-link" data-page="matches"><span class="nav-icon">◷</span><span>Fixtures</span><span class="nav-tag">EPL</span></button>
+      <button class="nav-link" data-page="history"><span class="nav-icon">▤</span><span>Season Log</span></button>
+    </nav>
+    <div class="sidebar-bottom">
+      <div class="season-chip"><span class="season-dot"></span><span><strong>2026 / 27</strong><small>SEASON MODE</small></span></div>
+      <button class="nav-link settings-link" data-page="settings"><span class="nav-icon">⚙</span><span>Settings</span></button>
+      <div class="storage-note"><span class="storage-light"></span><span id="connection-status">Checking local storage</span></div>
+      <small class="sidebar-version">TOUCHLINE · VERSION 1.1</small>
+    </div>
+  </aside>
 
-<div class="app">
+  <main class="main-content">
+    <header class="topbar">
+      <div class="breadcrumb"><span>TOUCHLINE</span><span class="crumb-slash">/</span><strong id="page-title">My Club</strong></div>
+      <div class="topbar-right"><span class="season-label">2026/27 SEASON</span><div class="profile-mark">TM</div></div>
+    </header>
 
-    <!-- SIDEBAR -->
-    <aside class="sidebar">
-        <div class="logo">
-            ⚽ <span>Fantasy Manager</span>
-        </div>
+    <section class="page active" id="teams">
+      <div class="page-intro">
+        <div><p class="eyebrow">YOUR FOOTBALL WORLD</p><h1>My Club<span class="title-period">.</span></h1><p class="intro-copy">Build your squad. Shape your identity. Own the season.</p></div>
+        <div class="intro-ball" aria-hidden="true"><span>⚽</span></div>
+      </div>
+      <div class="section-toolbar"><div><span class="section-kicker">CLUB MANAGEMENT</span><h2>Your clubs</h2></div><button class="primary-button" id="show-team-form"><span>＋</span> Create club</button></div>
+      <form id="team-form" class="data-form" hidden>
+        <label>Club name<input id="team-name" required maxlength="40" placeholder="e.g. North London FC"></label>
+        <label>Transfer budget (£m)<input id="team-budget" type="number" min="0" max="1000" step="0.1" value="100" required></label>
+        <div class="form-actions"><button class="primary-button" type="submit">Create club</button><button class="secondary-button" type="button" id="cancel-team-form">Cancel</button></div>
+      </form>
+      <div id="teams-list" class="record-list club-list"></div>
+      <div class="club-tip"><span class="tip-icon">✦</span><div><strong>Manager's note</strong><p>Your club and squad are saved on this device. You can continue managing them offline.</p></div></div>
+    </section>
 
-        <nav>
-            <button class="nav-link active" data-page="dashboard">🏠 Dashboard</button>
-            <button class="nav-link" data-page="teams">👥 My Teams</button>
-            <button class="nav-link" data-page="players">⚽ Players</button>
-            <button class="nav-link" data-page="formation">📋 Formation</button>
-            <button class="nav-link" data-page="transfers">🔄 Transfers</button>
-            <button class="nav-link" data-page="matches">🏆 Matches</button>
-            <button class="nav-link" data-page="history">📊 History</button>
-            <button class="nav-link" data-page="settings">⚙️ Settings</button>
-        </nav>
+    <section class="page" id="players">
+      <div class="page-intro compact-intro"><div><p class="eyebrow">SCOUTING & RECRUITMENT</p><h1>Player Market<span class="title-period">.</span></h1><p class="intro-copy">Discover talent and build a squad that fits your vision.</p></div><div class="intro-ball market-ball">◉</div></div>
+      <div class="section-toolbar"><div><span class="section-kicker">PLAYER DATABASE</span><h2>Registered players</h2></div><button class="primary-button" id="show-player-form"><span>＋</span> Add player</button></div>
+      <form id="player-form" class="data-form" hidden>
+        <label>Player name<input id="player-name" required maxlength="50" placeholder="Player name"></label>
+        <label>Position<select id="player-position" required><option value="GK">Goalkeeper</option><option value="DEF">Defender</option><option value="MID">Midfielder</option><option value="FWD">Forward</option></select></label>
+        <label>Club<input id="player-club" maxlength="50" placeholder="Club name"></label>
+        <label>Player value (£m)<input id="player-price" type="number" min="0" max="1000" step="0.1" value="5" required></label>
+        <div class="form-actions"><button class="primary-button" type="submit">Save player</button><button class="secondary-button" type="button" id="cancel-player-form">Cancel</button></div>
+      </form>
+      <div id="players-list" class="record-list"></div>
+    </section>
 
-        <div class="sidebar-footer">
-            <span>OFFLINE FANTASY MANAGER</span>
-            <small>Version 1.0.0</small>
-        </div>
-    </aside>
+    <section class="page" id="formation">
+      <div class="page-intro compact-intro"><div><p class="eyebrow">THE MANAGER'S BOARD</p><h1>Tactics & XI<span class="title-period">.</span></h1><p class="intro-copy">Set your formation and select the starting eleven.</p></div><div class="intro-ball tactics-ball">▦</div></div>
+      <div class="panel pitch-panel"><div class="panel-heading"><div><span class="section-kicker">MATCHDAY SETUP</span><h2>Squad & formation</h2></div><span class="panel-symbol">⚑</span></div><div id="formation-content"></div></div>
+    </section>
 
-    <!-- MAIN CONTENT -->
-    <main class="main-content">
+    <section class="page" id="transfers">
+      <div class="page-intro compact-intro"><div><p class="eyebrow">SQUAD BUILDING</p><h1>Transfers<span class="title-period">.</span></h1><p class="intro-copy">Plan your recruitment and keep an eye on your club budget.</p></div><div class="intro-ball transfer-ball">⇄</div></div>
+      <div class="panel feature-panel"><span class="feature-icon">⇄</span><span class="section-kicker">TRANSFER CENTRE</span><h2>Make your next move count.</h2><p>Your player database and club squad are the foundation of the transfer system. Add players in Player Market, then assign them to your club in Tactics & XI.</p><button class="secondary-button" data-page="players">Open player market ↗</button></div>
+    </section>
 
-        <header class="topbar">
-            <div>
-                <h1 id="page-title">Dashboard</h1>
-                <p>Your personal football management centre</p>
-            </div>
+    <section class="page" id="matches">
+      <div class="page-intro compact-intro"><div><p class="eyebrow">THE ROAD TO GLORY</p><h1>Fixtures<span class="title-period">.</span></h1><p class="intro-copy">Follow the Premier League 2026/27 season.</p></div><div class="intro-ball fixtures-ball">◷</div></div>
+      <div class="panel fixtures-panel">
+        <div class="panel-heading matches-heading"><div><span class="section-kicker">ENGLISH PREMIER LEAGUE</span><h2>Match centre</h2><p class="matches-intro">Fixture dates, kick-off times and match results.</p></div><button class="secondary-button" id="refresh-fixtures" type="button">↻ Refresh</button></div>
+        <div class="fixture-toolbar"><label class="fixture-filter-label">Filter matches<select id="fixture-filter" class="formation-select"><option value="all">All fixtures</option><option value="upcoming" selected>Upcoming</option><option value="live">Live</option><option value="finished">Completed</option></select></label><span id="fixture-update-status" class="fixture-update-status">Checking fixture data…</span></div>
+        <div id="fixtures-list" class="fixtures-list" aria-live="polite"></div>
+        <p class="fixture-footnote">Fixture information is supplied by the configured schedule provider. Kick-off times use your device's local time.</p>
+      </div>
+    </section>
 
-            <div class="user-area">
-                <span class="connection-status" id="connection-status">
-                    ● Checking storage
-                </span>
-                <div class="avatar">FM</div>
-            </div>
-        </header>
+    <section class="page" id="history">
+      <div class="page-intro compact-intro"><div><p class="eyebrow">YOUR SEASON STORY</p><h1>Season Log<span class="title-period">.</span></h1><p class="intro-copy">A record of the decisions you make as manager.</p></div><div class="intro-ball history-ball">▤</div></div>
+      <div class="panel"><div class="panel-heading"><div><span class="section-kicker">CLUB TIMELINE</span><h2>Recent activity</h2></div></div><div id="recent-activity"><p class="empty-copy">Your club activity will appear here.</p></div></div>
+    </section>
 
-        <!-- DASHBOARD -->
-        <section class="page active" id="dashboard">
+    <section class="page" id="settings">
+      <div class="page-intro compact-intro"><div><p class="eyebrow">PREFERENCES</p><h1>Settings<span class="title-period">.</span></h1><p class="intro-copy">Manage your local football manager experience.</p></div><div class="intro-ball settings-ball">⚙</div></div>
+      <div class="panel"><span class="section-kicker">DATA & STORAGE</span><h2>Local save</h2><p class="settings-copy">Your clubs, players and tactics are stored in this browser using IndexedDB. Fixture data is loaded separately from the published schedule file.</p><div class="storage-note settings-storage"><span class="storage-light"></span><span id="settings-storage-status">Checking local storage</span></div></div>
+    </section>
 
-            <div class="welcome">
-                <div>
-                    <p>WELCOME BACK</p>
-                    <h2>Manage your fantasy empire.</h2>
-                    <span>Build your squad. Make smart transfers. Win more points.</span>
-                </div>
-                <div class="football-icon">⚽</div>
-            </div>
-
-            <div class="stats-grid">
-
-                <div class="stat-card">
-                    <span>Total Points</span>
-                    <h2 id="total-points">0</h2>
-                    <small>All-time fantasy points</small>
-                </div>
-
-                <div class="stat-card">
-                    <span>My Teams</span>
-                    <h2 id="team-count">0</h2>
-                    <small>Created teams</small>
-                </div>
-
-                <div class="stat-card">
-                    <span>My Players</span>
-                    <h2 id="player-count">0</h2>
-                    <small>Registered players</small>
-                </div>
-
-                <div class="stat-card">
-                    <span>Budget</span>
-                    <h2 id="total-budget">£100.0m</h2>
-                    <small>Available budget</small>
-                </div>
-
-            </div>
-
-            <div class="dashboard-grid">
-
-                <div class="panel">
-                    <div class="panel-heading">
-                        <h3>My Main Team</h3>
-                        <button class="text-button" data-page="teams">View Teams →</button>
-                    </div>
-
-                    <div id="main-team">
-                        <div class="empty-state">
-                            <div>⚽</div>
-                            <h3>No team created yet</h3>
-                            <p>Create your first fantasy team to get started.</p>
-                            <button class="primary-button" data-page="teams">
-                                Create My Team
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="panel">
-                    <div class="panel-heading">
-                        <h3>Recent Activity</h3>
-                    </div>
-
-                    <div id="recent-activity">
-                        <div class="empty-state">
-                            <div>📋</div>
-                            <p>Your activities will appear here.</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="panel quick-actions">
-                <h3>Quick Actions</h3>
-
-                <div class="action-grid">
-                    <button data-page="teams">➕ Create Team</button>
-                    <button data-page="players">⚽ Add Player</button>
-                    <button data-page="formation">📋 Set Formation</button>
-                    <button data-page="matches">🏆 Enter Match</button>
-                </div>
-            </div>
-
-        </section>
-
-        <!-- OTHER PAGES -->
-        <section class="page" id="teams">
-            <div class="panel">
-                <div class="panel-heading">
-                    <h3>My Teams</h3>
-                    <button class="primary-button" id="show-team-form">+ Create Team</button>
-                </div>
-                <form id="team-form" class="data-form" hidden><label>Team name<input id="team-name" required maxlength="40" placeholder="e.g. My Dream Team"></label><label>Budget (£m)<input id="team-budget" type="number" min="0" max="1000" step="0.1" value="100" required></label><div class="form-actions"><button class="primary-button" type="submit">Save Team</button><button class="secondary-button" type="button" id="cancel-team-form">Cancel</button></div></form><div id="teams-list"></div>
-            </div>
-        </section>
-
-        <section class="page" id="players">
-            <div class="panel">
-                <div class="panel-heading">
-                    <h3>Player Management</h3>
-                    <button class="primary-button" id="show-player-form">+ Add Player</button>
-                </div>
-                <form id="player-form" class="data-form" hidden><label>Player name<input id="player-name" required maxlength="50" placeholder="Player name"></label><label>Position<select id="player-position" required><option value="GK">Goalkeeper</option><option value="DEF">Defender</option><option value="MID">Midfielder</option><option value="FWD">Forward</option></select></label><label>Club<input id="player-club" maxlength="50" placeholder="Club (optional)"></label><label>Price (£m)<input id="player-price" type="number" min="0" max="1000" step="0.1" value="5" required></label><div class="form-actions"><button class="primary-button" type="submit">Save Player</button><button class="secondary-button" type="button" id="cancel-player-form">Cancel</button></div></form><div id="players-list"></div>
-            </div>
-        </section>
-
-        <section class="page" id="formation">
-            <div class="panel">
-                <h3>Team Formation</h3>
-                <p>Choose your formation and arrange your starting eleven.</p>
-                <div id="formation-content"></div>
-            </div>
-        </section>
-
-        <section class="page" id="transfers">
-            <div class="panel">
-                <h3>Transfers</h3>
-                <p>Manage your squad transfers and budget.</p>
-            </div>
-        </section>
-
-        <section class="page" id="matches">
-            <div class="panel">
-                <div class="panel-heading matches-heading">
-                    <div><h3>Premier League Fixtures</h3><p class="matches-intro">Official 2026/27 league schedule, match status and scores.</p></div>
-                    <button class="secondary-button" id="refresh-fixtures" type="button">↻ Refresh</button>
-                </div>
-                <div class="fixture-toolbar">
-                    <label class="fixture-filter-label">Show
-                        <select id="fixture-filter" class="formation-select">
-                            <option value="all">All fixtures</option>
-                            <option value="upcoming" selected>Upcoming</option>
-                            <option value="live">Live</option>
-                            <option value="finished">Completed</option>
-                        </select>
-                    </label>
-                    <span id="fixture-update-status" class="fixture-update-status">Checking fixture data…</span>
-                </div>
-                <div id="fixtures-list" class="fixtures-list" aria-live="polite"></div>
-                <p class="fixture-footnote">Fixtures are refreshed automatically by the repository schedule updater. Kickoff times are shown in your device's local time.</p>
-            </div>
-        </section>
-
-        <section class="page" id="history">
-            <div class="panel">
-                <h3>Fantasy History</h3>
-                <p>Review your previous performances and results.</p>
-            </div>
-        </section>
-
-        <section class="page" id="settings">
-            <div class="panel">
-                <h3>Settings</h3>
-                <p>Manage your application preferences and data.</p>
-            </div>
-        </section>
-
-        <footer>
-            Offline Fantasy Manager © 2026
-        </footer>
-
-    </main>
-
+    <footer class="app-footer"><span>TOUCHLINE FOOTBALL MANAGER</span><span>BUILT FOR THE LOVE OF THE GAME · 2026/27</span></footer>
+  </main>
 </div>
-
 <script src="app.js"></script>
 </body>
 </html>
