@@ -1,64 +1,35 @@
 # Offline Fantasy Manager
 
-A browser-based football fantasy management application designed to work offline and preserve user data.
+A local-first, browser-based football fantasy management application.
 
-## Project Vision
+## Current foundation
+- Responsive HTML/CSS/JavaScript interface
+- IndexedDB local database
+- Dashboard with team/player counts, points and budget summary
+- Create, list, edit and delete workflows for teams and players
+- Recent activity log
 
-Build a complete fantasy football manager where users can create teams, manage players, organize formations, track match statistics and calculate fantasy points.
+## Run
+Open \`index.html\` through a static web host such as GitHub Pages. For reliable browser storage and service-worker features, use HTTPS or localhost. No package installation is required.
 
-## Main Features
+## Persistence and offline behavior
+Team and player records are stored in IndexedDB in the current browser profile. This persists across normal page reloads, but browser-local storage does not automatically sync between devices. Full offline asset caching requires the service worker, which is still planned.
 
-- Dashboard and statistics
-- Multiple team management
-- Player management
-- Football formations and lineups
-- Substitute management
-- Player transfers
-- Match centre
-- Automatic fantasy points calculation
-- Match history
-- Persistent data storage
-- Offline functionality
+## Planned features
+- Squad selection, formation and substitutes
+- Transfer and budget rules
+- Fixtures, results and fantasy scoring
+- Match history and statistics
 - Backup and restore
+- Service worker and installable web-app support
+- Optional secure cloud sync for cross-device use
 
-## Technology Stack
+## Project files
+- \`index.html\` — interface structure
+- \`styles.css\` — responsive styling
+- \`app.js\` — application logic and IndexedDB workflows
+- \`AGENTS.md\` — development instructions
+- \`INTERNAL_HANDOVER.md\` — project status and next steps
 
-- HTML5
-- CSS3
-- JavaScript
-- IndexedDB for local persistence
-- Supabase for cloud database and synchronization
-- Service Workers for offline support
-- GitHub for version control
-- GitHub Pages for hosting
-
-## Data Persistence
-
-The application will support:
-
-1. Local data storage using IndexedDB.
-2. Cloud storage and synchronization using Supabase.
-3. Backup and restore functionality.
-4. Offline access to previously loaded application data.
-
-## Project Structure
-
-- `index.html` – Main application.
-- `styles.css` – Application design.
-- `app.js` – Main application logic.
-- `sw.js` – Offline functionality.
-- `AGENTS.md` – AI development instructions.
-- `INTERNAL_HANDOVER.md` – Development progress and handover.
-
-## Development Principles
-
-- Mobile-friendly and responsive design.
-- Persistent data storage.
-- Modular and maintainable code.
-- No unnecessary dependencies.
-- Secure database access.
-- Test every feature before considering it complete.
-
-## Project Status
-
-Currently in Stage 2: Project documentation.
+## Development rules
+Preserve existing data, do not expose private credentials, test changes before calling them complete, and update the handover after each stage.
