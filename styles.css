@@ -469,3 +469,18 @@ footer {
 .record-actions .danger{color:#fca5a5}
 .empty-copy{padding:18px;color:var(--muted);font-size:13px}
 @media(max-width:650px){.data-form{grid-template-columns:1fr}.record-card{align-items:flex-start;flex-direction:column}.form-actions{grid-column:auto}}
+
+
+/* STAGE 4 — SQUAD AND FORMATION */
+.formation-controls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:18px 0}
+.formation-label{display:grid;gap:7px;color:var(--muted);font-size:12px}
+.formation-select{width:100%;min-width:0;padding:10px;border:1px solid var(--border);border-radius:7px;background:var(--background);color:var(--text);font:inherit}
+.squad-add-row{display:flex;gap:10px;max-width:560px;margin:10px 0 16px}
+.squad-add-row .formation-select{flex:1}
+.formation-subheading{margin:22px 0 12px}
+.squad-list{display:grid;gap:8px}
+.squad-player{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:11px 13px;border:1px solid var(--border);border-radius:8px;background:var(--surface-light);font-size:13px}
+.lineup-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.lineup-slot{display:grid;gap:6px;padding:10px;border:1px solid var(--border);border-radius:8px;background:var(--surface-light);color:var(--muted);font-size:11px;font-weight:700}
+.lineup-count,.formation-note{margin-top:12px;color:var(--muted);font-size:12px}
+@media(max-width:650px){.formation-controls{grid-template-columns:1fr}.squad-add-row{flex-direction:column}.lineup-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.squad-player{align-items:flex-start;flex-direction:column}}
