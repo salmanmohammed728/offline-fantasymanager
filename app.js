@@ -123,5 +123,71 @@ async function handleFormationAction(button) {
 document.addEventListener("change",e=>{if(e.target.matches("[data-formation-control], [data-lineup-slot]"))handleFormationChange(e.target).catch(err=>{console.error(err);status("Could not save formation",false);});});
 document.addEventListener("click",e=>{const b=e.target.closest("[data-formation-action]");if(b)handleFormationAction(b).catch(err=>{console.error(err);status("Could not update squad",false);});});
 
-async function init(){try{status("Opening local database");await openDatabase();if(navigator.storage&&navigator.storage.persist)try{await navigator.storage.persist();}catch(_){}setupForms();await refresh();status("Local database ready");}catch(err){console.error(err);status("Local storage unavailable",false);}}
+
+/* PREMIER LEAGUE FIXTURE SYNC */
+let fixtureCache=[];
+function fixtureStatusLabel(status){
+ const map={SCHEDULED:"Upcoming",TIMED:"Upcoming",IN_PLAY:"Live",PAUSED:"Half-time",FINISHED:"Full-time",POSTPONED:"Postponed",SUSPENDED:"Suspended",CANCELLED:"Cancelled"};
+ return map[status]||String(status||"Scheduled").replaceAll("_"," ");
+}
+function fixtureDate(value){
+ const d=new Date(value);
+ if(Number.isNaN(d.getTime()))return "Date TBC";
+ return new Intl.DateTimeFormat(undefined,{weekday:"short",day:"numeric",month:"short",hour:"numeric",minute:"2-digit"}).format(d);
+}
+function renderFixtures(){
+ const root=document.getElementById("fixtures-list"),filter=document.getElementById("fixture-filter");
+ if(!root)return;
+ const mode=filter?.value||"upcoming",now=Date.now();
+ let rows=fixtureCache.filter(m=>{
+  const status=String(m.status||"").toUpperCase(),time=new Date(m.utcDate).getTime();
+  if(mode==="live")return ["IN_PLAY","PAUSED"].includes(status);
+  if(mode==="finished")return status==="FINISHED";
+  if(mode==="upcoming")return time>=now&&!["FINISHED","CANCELLED"].includes(status);
+  return true;
+ });
+ rows.sort((a,b)=>new Date(a.utcDate)-new Date(b.utcDate));
+ root.replaceChildren();
+ if(!rows.length){root.append(node("p","empty-copy",fixtureCache.length?"No fixtures match this filter.":"No fixture data has been published yet. Add the repository API secret to enable automatic updates."));return;}
+ rows.forEach(match=>{
+  const cardEl=node("article","fixture-card"),top=node("div","fixture-card-top");
+  const matchday=match.matchday?("Matchweek "+match.matchday):"Premier League";
+  top.append(node("span","fixture-matchday",matchday));
+  const state=node("span","fixture-status fixture-status-"+String(match.status||"scheduled").toLowerCase(),fixtureStatusLabel(match.status));
+  top.append(state);
+  const teams=node("div","fixture-teams");
+  const home=node("div","fixture-team fixture-home"),away=node("div","fixture-team fixture-away");
+  home.append(node("strong","",match.homeTeam||"Home team"));
+  away.append(node("strong","",match.awayTeam||"Away team"));
+  const score=node("div","fixture-score");
+  if(match.homeScore!==null&&match.homeScore!==undefined&&match.awayScore!==null&&match.awayScore!==undefined)score.textContent=match.homeScore+" – "+match.awayScore;
+  else score.textContent="vs";
+  teams.append(home,score,away);
+  cardEl.append(top,teams,node("div","fixture-kickoff",fixtureDate(match.utcDate)));
+  root.append(cardEl);
+ });
+}
+async function loadPremierLeagueFixtures(force=false){
+ const root=document.getElementById("fixtures-list"),label=document.getElementById("fixture-update-status");
+ if(!root)return;
+ if(label)label.textContent="Loading schedule…";
+ try{
+  const url="data/epl-fixtures.json"+(force?"?refresh="+Date.now():"?v=1");
+  const response=await fetch(url,{cache:force?"no-store":"default"});
+  if(!response.ok)throw Error("Fixture data is not published yet");
+  const data=await response.json();
+  fixtureCache=Array.isArray(data.matches)?data.matches:[];
+  renderFixtures();
+  const updated=data.lastUpdated?new Date(data.lastUpdated).toLocaleString():"not recorded";
+  if(label)label.textContent="Last updated: "+updated;
+ }catch(err){
+  fixtureCache=[];renderFixtures();
+  if(label)label.textContent="Schedule updater not configured";
+  console.warn("Premier League fixtures unavailable:",err);
+ }
+}
+document.addEventListener("change",e=>{if(e.target.id==="fixture-filter")renderFixtures();});
+document.addEventListener("click",e=>{if(e.target.closest("#refresh-fixtures"))loadPremierLeagueFixtures(true);});
+
+async function init(){try{status("Opening local database");await openDatabase();if(navigator.storage&&navigator.storage.persist)try{await navigator.storage.persist();}catch(_){}setupForms();await refresh();await loadPremierLeagueFixtures();status("Local database ready");}catch(err){console.error(err);status("Local storage unavailable",false);}}
 window.addEventListener("online",()=>status("Online · local data available"));window.addEventListener("offline",()=>status("Offline · local data available"));document.addEventListener("DOMContentLoaded",init);
