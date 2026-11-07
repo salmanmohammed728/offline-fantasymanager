@@ -2,7 +2,7 @@
   "competition": "Premier League",
   "season": "2026/2027",
   "source": "football-data.org",
-  "lastUpdated": "2026-11-06T22:06:34.442Z",
+  "lastUpdated": "2026-11-07T07:08:12.012Z",
   "matches": [
     {
       "id": 560542,
@@ -13,7 +13,7 @@
       "awayTeam": "Coventry City FC",
       "homeScore": 3,
       "awayScore": 0,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560543,
@@ -24,7 +24,7 @@
       "awayTeam": "Manchester United FC",
       "homeScore": 2,
       "awayScore": 0,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560544,
@@ -35,7 +35,7 @@
       "awayTeam": "Sunderland AFC",
       "homeScore": 2,
       "awayScore": 1,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560545,
@@ -46,7 +46,7 @@
       "awayTeam": "Leeds United FC",
       "homeScore": 0,
       "awayScore": 1,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560546,
@@ -57,7 +57,7 @@
       "awayTeam": "Crystal Palace FC",
       "homeScore": 2,
       "awayScore": 0,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560547,
@@ -68,7 +68,7 @@
       "awayTeam": "Tottenham Hotspur FC",
       "homeScore": 3,
       "awayScore": 0,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560548,
@@ -79,7 +79,7 @@
       "awayTeam": "AFC Bournemouth",
       "homeScore": 2,
       "awayScore": 1,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560549,
@@ -90,7 +90,7 @@
       "awayTeam": "Aston Villa FC",
       "homeScore": 4,
       "awayScore": 0,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560550,
@@ -101,7 +101,7 @@
       "awayTeam": "Liverpool FC",
       "homeScore": 2,
       "awayScore": 2,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560551,
@@ -112,7 +112,7 @@
       "awayTeam": "Chelsea FC",
       "homeScore": 2,
       "awayScore": 3,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560555,
@@ -123,7 +123,7 @@
       "awayTeam": "Manchester City FC",
       "homeScore": 1,
       "awayScore": 4,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560552,
@@ -134,7 +134,7 @@
       "awayTeam": "Nottingham Forest FC",
       "homeScore": 2,
       "awayScore": 2,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560560,
@@ -145,7 +145,7 @@
       "awayTeam": "Everton FC",
       "homeScore": 1,
       "awayScore": 1,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560561,
@@ -156,7 +156,7 @@
       "awayTeam": "Hull City AFC",
       "homeScore": 0,
       "awayScore": 1,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560558,
@@ -167,7 +167,7 @@
       "awayTeam": "Newcastle United FC",
       "homeScore": 0,
       "awayScore": 2,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560554,
@@ -178,7 +178,7 @@
       "awayTeam": "Fulham FC",
       "homeScore": 1,
       "awayScore": 0,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560556,
@@ -189,7 +189,7 @@
       "awayTeam": "Brighton & Hove Albion FC",
       "homeScore": 4,
       "awayScore": 3,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560559,
@@ -200,7 +200,7 @@
       "awayTeam": "Brentford FC",
       "homeScore": 1,
       "awayScore": 1,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560553,
@@ -211,7 +211,7 @@
       "awayTeam": "Ipswich Town FC",
       "homeScore": 5,
       "awayScore": 2,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560557,
@@ -222,7 +222,7 @@
       "awayTeam": "Arsenal FC",
       "homeScore": 0,
       "awayScore": 1,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560566,
@@ -233,7 +233,7 @@
       "awayTeam": "Liverpool FC",
       "homeScore": 0,
       "awayScore": 2,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560571,
@@ -244,7 +244,7 @@
       "awayTeam": "AFC Bournemouth",
       "homeScore": 2,
       "awayScore": 2,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560562,
@@ -255,7 +255,7 @@
       "awayTeam": "Tottenham Hotspur FC",
       "homeScore": 0,
       "awayScore": 0,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560563,
@@ -266,7 +266,7 @@
       "awayTeam": "Coventry City FC",
       "homeScore": 1,
       "awayScore": 0,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560564,
@@ -277,7 +277,7 @@
       "awayTeam": "Leeds United FC",
       "homeScore": 1,
       "awayScore": 1,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560565,
@@ -288,7 +288,7 @@
       "awayTeam": "Sunderland AFC",
       "homeScore": 1,
       "awayScore": 1,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560568,
@@ -299,7 +299,7 @@
       "awayTeam": "Crystal Palace FC",
       "homeScore": 2,
       "awayScore": 3,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560569,
@@ -310,7 +310,7 @@
       "awayTeam": "Aston Villa FC",
       "homeScore": 0,
       "awayScore": 0,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560567,
@@ -321,7 +321,7 @@
       "awayTeam": "Manchester United FC",
       "homeScore": 2,
       "awayScore": 2,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560570,
@@ -332,7 +332,7 @@
       "awayTeam": "Chelsea FC",
       "homeScore": 2,
       "awayScore": 1,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560572,
@@ -343,7 +343,7 @@
       "awayTeam": "Ipswich Town FC",
       "homeScore": 2,
       "awayScore": 3,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560573,
@@ -354,7 +354,7 @@
       "awayTeam": "Fulham FC",
       "homeScore": 0,
       "awayScore": 0,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560574,
@@ -365,7 +365,7 @@
       "awayTeam": "Nottingham Forest FC",
       "homeScore": 1,
       "awayScore": 2,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560576,
@@ -376,7 +376,7 @@
       "awayTeam": "Brentford FC",
       "homeScore": 2,
       "awayScore": 2,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560581,
@@ -387,7 +387,7 @@
       "awayTeam": "Hull City AFC",
       "homeScore": 2,
       "awayScore": 2,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560575,
@@ -398,7 +398,7 @@
       "awayTeam": "Everton FC",
       "homeScore": 0,
       "awayScore": 0,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560577,
@@ -409,7 +409,7 @@
       "awayTeam": "Arsenal FC",
       "homeScore": 0,
       "awayScore": 2,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560578,
@@ -420,7 +420,7 @@
       "awayTeam": "Brighton & Hove Albion FC",
       "homeScore": 0,
       "awayScore": 5,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560580,
@@ -431,7 +431,7 @@
       "awayTeam": "Manchester City FC",
       "homeScore": 0,
       "awayScore": 1,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560579,
@@ -442,7 +442,7 @@
       "awayTeam": "Newcastle United FC",
       "homeScore": 4,
       "awayScore": 1,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560591,
@@ -453,7 +453,7 @@
       "awayTeam": "Chelsea FC",
       "homeScore": 3,
       "awayScore": 0,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560587,
@@ -464,7 +464,7 @@
       "awayTeam": "Aston Villa FC",
       "homeScore": 2,
       "awayScore": 3,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560584,
@@ -475,7 +475,7 @@
       "awayTeam": "Ipswich Town FC",
       "homeScore": 1,
       "awayScore": 0,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560586,
@@ -486,7 +486,7 @@
       "awayTeam": "Arsenal FC",
       "homeScore": 3,
       "awayScore": 0,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560588,
@@ -497,7 +497,7 @@
       "awayTeam": "Hull City AFC",
       "homeScore": 2,
       "awayScore": 1,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560589,
@@ -508,7 +508,7 @@
       "awayTeam": "Coventry City FC",
       "homeScore": 0,
       "awayScore": 1,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560582,
@@ -519,7 +519,7 @@
       "awayTeam": "Liverpool FC",
       "homeScore": 0,
       "awayScore": 1,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560585,
@@ -530,7 +530,7 @@
       "awayTeam": "Crystal Palace FC",
       "homeScore": 0,
       "awayScore": 0,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560590,
@@ -541,7 +541,7 @@
       "awayTeam": "Sunderland AFC",
       "homeScore": 5,
       "awayScore": 3,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560583,
@@ -552,7 +552,7 @@
       "awayTeam": "Manchester United FC",
       "homeScore": 1,
       "awayScore": 1,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560593,
@@ -563,7 +563,7 @@
       "awayTeam": "Leeds United FC",
       "homeScore": 2,
       "awayScore": 1,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560592,
@@ -574,7 +574,7 @@
       "awayTeam": "Brighton & Hove Albion FC",
       "homeScore": 0,
       "awayScore": 2,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560595,
@@ -585,7 +585,7 @@
       "awayTeam": "AFC Bournemouth",
       "homeScore": 5,
       "awayScore": 1,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560599,
@@ -596,7 +596,7 @@
       "awayTeam": "Fulham FC",
       "homeScore": 2,
       "awayScore": 1,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560601,
@@ -607,7 +607,7 @@
       "awayTeam": "Brentford FC",
       "homeScore": 2,
       "awayScore": 2,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560600,
@@ -618,7 +618,7 @@
       "awayTeam": "Tottenham Hotspur FC",
       "homeScore": 1,
       "awayScore": 1,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560594,
@@ -629,7 +629,7 @@
       "awayTeam": "Everton FC",
       "homeScore": 2,
       "awayScore": 2,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560596,
@@ -640,7 +640,7 @@
       "awayTeam": "Nottingham Forest FC",
       "homeScore": 3,
       "awayScore": 1,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560598,
@@ -651,7 +651,7 @@
       "awayTeam": "Manchester City FC",
       "homeScore": 0,
       "awayScore": 3,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560597,
@@ -662,7 +662,7 @@
       "awayTeam": "Newcastle United FC",
       "homeScore": 4,
       "awayScore": 1,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560603,
@@ -673,7 +673,7 @@
       "awayTeam": "Chelsea FC",
       "homeScore": 0,
       "awayScore": 2,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560602,
@@ -684,7 +684,7 @@
       "awayTeam": "Hull City AFC",
       "homeScore": 1,
       "awayScore": 0,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560610,
@@ -695,7 +695,7 @@
       "awayTeam": "Ipswich Town FC",
       "homeScore": 3,
       "awayScore": 2,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560611,
@@ -706,7 +706,7 @@
       "awayTeam": "Liverpool FC",
       "homeScore": 1,
       "awayScore": 2,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560607,
@@ -717,7 +717,7 @@
       "awayTeam": "Aston Villa FC",
       "homeScore": 0,
       "awayScore": 1,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560604,
@@ -728,7 +728,7 @@
       "awayTeam": "Sunderland AFC",
       "homeScore": 2,
       "awayScore": 0,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560605,
@@ -739,7 +739,7 @@
       "awayTeam": "Manchester United FC",
       "homeScore": 1,
       "awayScore": 1,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560609,
@@ -750,7 +750,7 @@
       "awayTeam": "Crystal Palace FC",
       "homeScore": 5,
       "awayScore": 0,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560608,
@@ -761,7 +761,7 @@
       "awayTeam": "Arsenal FC",
       "homeScore": 0,
       "awayScore": 1,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560606,
@@ -772,7 +772,7 @@
       "awayTeam": "Coventry City FC",
       "homeScore": 3,
       "awayScore": 1,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560620,
@@ -783,7 +783,7 @@
       "awayTeam": "Nottingham Forest FC",
       "homeScore": 1,
       "awayScore": 1,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560614,
@@ -794,7 +794,7 @@
       "awayTeam": "Manchester City FC",
       "homeScore": 2,
       "awayScore": 1,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560616,
@@ -805,7 +805,7 @@
       "awayTeam": "Everton FC",
       "homeScore": 2,
       "awayScore": 0,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560618,
@@ -816,7 +816,7 @@
       "awayTeam": "Fulham FC",
       "homeScore": 0,
       "awayScore": 1,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560617,
@@ -827,7 +827,7 @@
       "awayTeam": "Tottenham Hotspur FC",
       "homeScore": 0,
       "awayScore": 2,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560612,
@@ -838,7 +838,7 @@
       "awayTeam": "Brighton & Hove Albion FC",
       "homeScore": 2,
       "awayScore": 0,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560613,
@@ -849,7 +849,7 @@
       "awayTeam": "Newcastle United FC",
       "homeScore": 0,
       "awayScore": 2,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560615,
@@ -860,7 +860,7 @@
       "awayTeam": "AFC Bournemouth",
       "homeScore": 0,
       "awayScore": 3,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560619,
@@ -871,7 +871,7 @@
       "awayTeam": "Brentford FC",
       "homeScore": 1,
       "awayScore": 1,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560621,
@@ -882,7 +882,7 @@
       "awayTeam": "Leeds United FC",
       "homeScore": 0,
       "awayScore": 0,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560626,
@@ -893,7 +893,7 @@
       "awayTeam": "Manchester United FC",
       "homeScore": 2,
       "awayScore": 0,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560623,
@@ -904,7 +904,7 @@
       "awayTeam": "Brighton & Hove Albion FC",
       "homeScore": 0,
       "awayScore": 1,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560624,
@@ -915,7 +915,7 @@
       "awayTeam": "Leeds United FC",
       "homeScore": 2,
       "awayScore": 0,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560625,
@@ -926,7 +926,7 @@
       "awayTeam": "Sunderland AFC",
       "homeScore": 3,
       "awayScore": 1,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560629,
@@ -937,7 +937,7 @@
       "awayTeam": "Ipswich Town FC",
       "homeScore": 2,
       "awayScore": 2,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560630,
@@ -948,7 +948,7 @@
       "awayTeam": "Nottingham Forest FC",
       "homeScore": 2,
       "awayScore": 0,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560627,
@@ -959,7 +959,7 @@
       "awayTeam": "Crystal Palace FC",
       "homeScore": 2,
       "awayScore": 0,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560628,
@@ -970,7 +970,7 @@
       "awayTeam": "Fulham FC",
       "homeScore": 1,
       "awayScore": 1,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560631,
@@ -981,7 +981,7 @@
       "awayTeam": "Arsenal FC",
       "homeScore": 0,
       "awayScore": 1,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560622,
@@ -992,7 +992,7 @@
       "awayTeam": "Everton FC",
       "homeScore": 0,
       "awayScore": 1,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560634,
@@ -1003,7 +1003,7 @@
       "awayTeam": "Coventry City FC",
       "homeScore": 3,
       "awayScore": 1,
-      "lastUpdated": "2026-11-06T22:01:55Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560632,
@@ -1014,7 +1014,7 @@
       "awayTeam": "Tottenham Hotspur FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560640,
@@ -1025,7 +1025,7 @@
       "awayTeam": "Hull City AFC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560633,
@@ -1036,7 +1036,7 @@
       "awayTeam": "Newcastle United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560641,
@@ -1047,7 +1047,7 @@
       "awayTeam": "Manchester City FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560635,
@@ -1058,7 +1058,7 @@
       "awayTeam": "Liverpool FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T01:32:03Z"
     },
     {
       "id": 560636,
@@ -1069,7 +1069,7 @@
       "awayTeam": "Chelsea FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560637,
@@ -1080,7 +1080,7 @@
       "awayTeam": "AFC Bournemouth",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560638,
@@ -1091,7 +1091,7 @@
       "awayTeam": "Brentford FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T01:32:03Z"
     },
     {
       "id": 560639,
@@ -1102,7 +1102,7 @@
       "awayTeam": "Aston Villa FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560643,
@@ -1113,7 +1113,7 @@
       "awayTeam": "Fulham FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560642,
@@ -1124,7 +1124,7 @@
       "awayTeam": "Leeds United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560644,
@@ -1135,7 +1135,7 @@
       "awayTeam": "Sunderland AFC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560647,
@@ -1146,7 +1146,7 @@
       "awayTeam": "Nottingham Forest FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560648,
@@ -1157,7 +1157,7 @@
       "awayTeam": "Ipswich Town FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560650,
@@ -1168,7 +1168,7 @@
       "awayTeam": "Crystal Palace FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560651,
@@ -1179,7 +1179,7 @@
       "awayTeam": "Arsenal FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560646,
@@ -1190,7 +1190,7 @@
       "awayTeam": "Brighton & Hove Albion FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560645,
@@ -1201,7 +1201,7 @@
       "awayTeam": "Manchester United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560649,
@@ -1212,7 +1212,7 @@
       "awayTeam": "Everton FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560658,
@@ -1223,7 +1223,7 @@
       "awayTeam": "Chelsea FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560652,
@@ -1234,7 +1234,7 @@
       "awayTeam": "Coventry City FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560655,
@@ -1245,7 +1245,7 @@
       "awayTeam": "Brentford FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560653,
@@ -1256,7 +1256,7 @@
       "awayTeam": "Aston Villa FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560656,
@@ -1267,7 +1267,7 @@
       "awayTeam": "Liverpool FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560657,
@@ -1278,7 +1278,7 @@
       "awayTeam": "AFC Bournemouth",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560659,
@@ -1289,7 +1289,7 @@
       "awayTeam": "Newcastle United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560660,
@@ -1300,7 +1300,7 @@
       "awayTeam": "Tottenham Hotspur FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560661,
@@ -1311,7 +1311,7 @@
       "awayTeam": "Hull City AFC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560654,
@@ -1322,7 +1322,7 @@
       "awayTeam": "Manchester City FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560668,
@@ -1333,7 +1333,7 @@
       "awayTeam": "Ipswich Town FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560663,
@@ -1344,7 +1344,7 @@
       "awayTeam": "Sunderland AFC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560664,
@@ -1355,7 +1355,7 @@
       "awayTeam": "Nottingham Forest FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560665,
@@ -1366,7 +1366,7 @@
       "awayTeam": "Crystal Palace FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560669,
@@ -1377,7 +1377,7 @@
       "awayTeam": "Leeds United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560666,
@@ -1388,7 +1388,7 @@
       "awayTeam": "Everton FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560667,
@@ -1399,7 +1399,7 @@
       "awayTeam": "Arsenal FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560670,
@@ -1410,7 +1410,7 @@
       "awayTeam": "Manchester United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560671,
@@ -1421,7 +1421,7 @@
       "awayTeam": "Brighton & Hove Albion FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560662,
@@ -1432,7 +1432,7 @@
       "awayTeam": "Fulham FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560676,
@@ -1443,7 +1443,7 @@
       "awayTeam": "Liverpool FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560673,
@@ -1454,7 +1454,7 @@
       "awayTeam": "Coventry City FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560674,
@@ -1465,7 +1465,7 @@
       "awayTeam": "Ipswich Town FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560678,
@@ -1476,7 +1476,7 @@
       "awayTeam": "Hull City AFC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560679,
@@ -1487,7 +1487,7 @@
       "awayTeam": "Crystal Palace FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560680,
@@ -1498,7 +1498,7 @@
       "awayTeam": "Brighton & Hove Albion FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560677,
@@ -1509,7 +1509,7 @@
       "awayTeam": "Manchester City FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560675,
@@ -1520,7 +1520,7 @@
       "awayTeam": "Sunderland AFC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560681,
@@ -1531,7 +1531,7 @@
       "awayTeam": "Fulham FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560672,
@@ -1542,7 +1542,7 @@
       "awayTeam": "Arsenal FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560686,
@@ -1553,7 +1553,7 @@
       "awayTeam": "Newcastle United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560690,
@@ -1564,7 +1564,7 @@
       "awayTeam": "Leeds United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560691,
@@ -1575,7 +1575,7 @@
       "awayTeam": "Brentford FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560689,
@@ -1586,7 +1586,7 @@
       "awayTeam": "Chelsea FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560682,
@@ -1597,7 +1597,7 @@
       "awayTeam": "Nottingham Forest FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560685,
@@ -1608,7 +1608,7 @@
       "awayTeam": "Everton FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560688,
@@ -1619,7 +1619,7 @@
       "awayTeam": "AFC Bournemouth",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560687,
@@ -1630,7 +1630,7 @@
       "awayTeam": "Aston Villa FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560683,
@@ -1641,7 +1641,7 @@
       "awayTeam": "Manchester United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560684,
@@ -1652,7 +1652,7 @@
       "awayTeam": "Tottenham Hotspur FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560695,
@@ -1663,7 +1663,7 @@
       "awayTeam": "Newcastle United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560692,
@@ -1674,7 +1674,7 @@
       "awayTeam": "Fulham FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560696,
@@ -1685,7 +1685,7 @@
       "awayTeam": "Hull City AFC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560698,
@@ -1696,7 +1696,7 @@
       "awayTeam": "Coventry City FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560700,
@@ -1707,7 +1707,7 @@
       "awayTeam": "Tottenham Hotspur FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560693,
@@ -1718,7 +1718,7 @@
       "awayTeam": "Ipswich Town FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560694,
@@ -1729,7 +1729,7 @@
       "awayTeam": "Everton FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560697,
@@ -1740,7 +1740,7 @@
       "awayTeam": "Crystal Palace FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560699,
@@ -1751,7 +1751,7 @@
       "awayTeam": "Manchester United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560701,
@@ -1762,7 +1762,7 @@
       "awayTeam": "Aston Villa FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560702,
@@ -1773,7 +1773,7 @@
       "awayTeam": "Leeds United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560705,
@@ -1784,7 +1784,7 @@
       "awayTeam": "Sunderland AFC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560708,
@@ -1795,7 +1795,7 @@
       "awayTeam": "Brighton & Hove Albion FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560709,
@@ -1806,7 +1806,7 @@
       "awayTeam": "AFC Bournemouth",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560711,
@@ -1817,7 +1817,7 @@
       "awayTeam": "Brentford FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560710,
@@ -1828,7 +1828,7 @@
       "awayTeam": "Liverpool FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560707,
@@ -1839,7 +1839,7 @@
       "awayTeam": "Manchester City FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560706,
@@ -1850,7 +1850,7 @@
       "awayTeam": "Chelsea FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560703,
@@ -1861,7 +1861,7 @@
       "awayTeam": "Nottingham Forest FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560704,
@@ -1872,7 +1872,7 @@
       "awayTeam": "Arsenal FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560716,
@@ -1883,7 +1883,7 @@
       "awayTeam": "Leeds United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560719,
@@ -1894,7 +1894,7 @@
       "awayTeam": "Brighton & Hove Albion FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560720,
@@ -1905,7 +1905,7 @@
       "awayTeam": "Manchester City FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560712,
@@ -1916,7 +1916,7 @@
       "awayTeam": "Arsenal FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560713,
@@ -1927,7 +1927,7 @@
       "awayTeam": "Brentford FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560715,
@@ -1938,7 +1938,7 @@
       "awayTeam": "Nottingham Forest FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560717,
@@ -1949,7 +1949,7 @@
       "awayTeam": "Sunderland AFC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560721,
@@ -1960,7 +1960,7 @@
       "awayTeam": "AFC Bournemouth",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560714,
@@ -1971,7 +1971,7 @@
       "awayTeam": "Liverpool FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560718,
@@ -1982,7 +1982,7 @@
       "awayTeam": "Chelsea FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560724,
@@ -1993,7 +1993,7 @@
       "awayTeam": "Everton FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560730,
@@ -2004,7 +2004,7 @@
       "awayTeam": "Manchester United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560723,
@@ -2015,7 +2015,7 @@
       "awayTeam": "Crystal Palace FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560725,
@@ -2026,7 +2026,7 @@
       "awayTeam": "Ipswich Town FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560726,
@@ -2037,7 +2037,7 @@
       "awayTeam": "Hull City AFC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560727,
@@ -2048,7 +2048,7 @@
       "awayTeam": "Coventry City FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560729,
@@ -2059,7 +2059,7 @@
       "awayTeam": "Fulham FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560722,
@@ -2070,7 +2070,7 @@
       "awayTeam": "Aston Villa FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560728,
@@ -2081,7 +2081,7 @@
       "awayTeam": "Newcastle United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560731,
@@ -2092,7 +2092,7 @@
       "awayTeam": "Tottenham Hotspur FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560732,
@@ -2103,7 +2103,7 @@
       "awayTeam": "Brentford FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560735,
@@ -2114,7 +2114,7 @@
       "awayTeam": "AFC Bournemouth",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560736,
@@ -2125,7 +2125,7 @@
       "awayTeam": "Hull City AFC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560738,
@@ -2136,7 +2136,7 @@
       "awayTeam": "Aston Villa FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560739,
@@ -2147,7 +2147,7 @@
       "awayTeam": "Liverpool FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560737,
@@ -2158,7 +2158,7 @@
       "awayTeam": "Tottenham Hotspur FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560740,
@@ -2169,7 +2169,7 @@
       "awayTeam": "Chelsea FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560741,
@@ -2180,7 +2180,7 @@
       "awayTeam": "Coventry City FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560733,
@@ -2191,7 +2191,7 @@
       "awayTeam": "Manchester City FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560734,
@@ -2202,7 +2202,7 @@
       "awayTeam": "Newcastle United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560742,
@@ -2213,7 +2213,7 @@
       "awayTeam": "Ipswich Town FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560743,
@@ -2224,7 +2224,7 @@
       "awayTeam": "Nottingham Forest FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560744,
@@ -2235,7 +2235,7 @@
       "awayTeam": "Sunderland AFC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560745,
@@ -2246,7 +2246,7 @@
       "awayTeam": "Brighton & Hove Albion FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560746,
@@ -2257,7 +2257,7 @@
       "awayTeam": "Manchester United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560747,
@@ -2268,7 +2268,7 @@
       "awayTeam": "Leeds United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560748,
@@ -2279,7 +2279,7 @@
       "awayTeam": "Everton FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560749,
@@ -2290,7 +2290,7 @@
       "awayTeam": "Crystal Palace FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560750,
@@ -2301,7 +2301,7 @@
       "awayTeam": "Arsenal FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560751,
@@ -2312,7 +2312,7 @@
       "awayTeam": "Fulham FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560752,
@@ -2323,7 +2323,7 @@
       "awayTeam": "Hull City AFC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560753,
@@ -2334,7 +2334,7 @@
       "awayTeam": "Brentford FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560754,
@@ -2345,7 +2345,7 @@
       "awayTeam": "Coventry City FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560755,
@@ -2356,7 +2356,7 @@
       "awayTeam": "AFC Bournemouth",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560756,
@@ -2367,7 +2367,7 @@
       "awayTeam": "Newcastle United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560757,
@@ -2378,7 +2378,7 @@
       "awayTeam": "Chelsea FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560758,
@@ -2389,7 +2389,7 @@
       "awayTeam": "Aston Villa FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560759,
@@ -2400,7 +2400,7 @@
       "awayTeam": "Liverpool FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560760,
@@ -2411,7 +2411,7 @@
       "awayTeam": "Manchester City FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560761,
@@ -2422,7 +2422,7 @@
       "awayTeam": "Tottenham Hotspur FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560762,
@@ -2433,7 +2433,7 @@
       "awayTeam": "Sunderland AFC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560763,
@@ -2444,7 +2444,7 @@
       "awayTeam": "Manchester United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560764,
@@ -2455,7 +2455,7 @@
       "awayTeam": "Brighton & Hove Albion FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560765,
@@ -2466,7 +2466,7 @@
       "awayTeam": "Crystal Palace FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560766,
@@ -2477,7 +2477,7 @@
       "awayTeam": "Leeds United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560767,
@@ -2488,7 +2488,7 @@
       "awayTeam": "Fulham FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560768,
@@ -2499,7 +2499,7 @@
       "awayTeam": "Nottingham Forest FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560769,
@@ -2510,7 +2510,7 @@
       "awayTeam": "Everton FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560770,
@@ -2521,7 +2521,7 @@
       "awayTeam": "Arsenal FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560771,
@@ -2532,7 +2532,7 @@
       "awayTeam": "Ipswich Town FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560772,
@@ -2543,7 +2543,7 @@
       "awayTeam": "Liverpool FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560773,
@@ -2554,7 +2554,7 @@
       "awayTeam": "Hull City AFC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560774,
@@ -2565,7 +2565,7 @@
       "awayTeam": "Aston Villa FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560775,
@@ -2576,7 +2576,7 @@
       "awayTeam": "Coventry City FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560776,
@@ -2587,7 +2587,7 @@
       "awayTeam": "Tottenham Hotspur FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560777,
@@ -2598,7 +2598,7 @@
       "awayTeam": "Newcastle United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560778,
@@ -2609,7 +2609,7 @@
       "awayTeam": "Manchester City FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560779,
@@ -2620,7 +2620,7 @@
       "awayTeam": "AFC Bournemouth",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560780,
@@ -2631,7 +2631,7 @@
       "awayTeam": "Chelsea FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560781,
@@ -2642,7 +2642,7 @@
       "awayTeam": "Brentford FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560782,
@@ -2653,7 +2653,7 @@
       "awayTeam": "Leeds United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560783,
@@ -2664,7 +2664,7 @@
       "awayTeam": "Liverpool FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560784,
@@ -2675,7 +2675,7 @@
       "awayTeam": "Sunderland AFC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560785,
@@ -2686,7 +2686,7 @@
       "awayTeam": "AFC Bournemouth",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560786,
@@ -2697,7 +2697,7 @@
       "awayTeam": "Brentford FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560787,
@@ -2708,7 +2708,7 @@
       "awayTeam": "Chelsea FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560788,
@@ -2719,7 +2719,7 @@
       "awayTeam": "Nottingham Forest FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560789,
@@ -2730,7 +2730,7 @@
       "awayTeam": "Manchester City FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560790,
@@ -2741,7 +2741,7 @@
       "awayTeam": "Brighton & Hove Albion FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560791,
@@ -2752,7 +2752,7 @@
       "awayTeam": "Arsenal FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560792,
@@ -2763,7 +2763,7 @@
       "awayTeam": "Newcastle United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560793,
@@ -2774,7 +2774,7 @@
       "awayTeam": "Crystal Palace FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560794,
@@ -2785,7 +2785,7 @@
       "awayTeam": "Coventry City FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560795,
@@ -2796,7 +2796,7 @@
       "awayTeam": "Ipswich Town FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560796,
@@ -2807,7 +2807,7 @@
       "awayTeam": "Hull City AFC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560797,
@@ -2818,7 +2818,7 @@
       "awayTeam": "Fulham FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560798,
@@ -2829,7 +2829,7 @@
       "awayTeam": "Manchester United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560799,
@@ -2840,7 +2840,7 @@
       "awayTeam": "Tottenham Hotspur FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560800,
@@ -2851,7 +2851,7 @@
       "awayTeam": "Everton FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560801,
@@ -2862,7 +2862,7 @@
       "awayTeam": "Aston Villa FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560802,
@@ -2873,7 +2873,7 @@
       "awayTeam": "Sunderland AFC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560803,
@@ -2884,7 +2884,7 @@
       "awayTeam": "Arsenal FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560804,
@@ -2895,7 +2895,7 @@
       "awayTeam": "Brighton & Hove Albion FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560805,
@@ -2906,7 +2906,7 @@
       "awayTeam": "AFC Bournemouth",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560806,
@@ -2917,7 +2917,7 @@
       "awayTeam": "Nottingham Forest FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560807,
@@ -2928,7 +2928,7 @@
       "awayTeam": "Leeds United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560808,
@@ -2939,7 +2939,7 @@
       "awayTeam": "Chelsea FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560809,
@@ -2950,7 +2950,7 @@
       "awayTeam": "Liverpool FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560810,
@@ -2961,7 +2961,7 @@
       "awayTeam": "Brentford FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560811,
@@ -2972,7 +2972,7 @@
       "awayTeam": "Manchester City FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560812,
@@ -2983,7 +2983,7 @@
       "awayTeam": "Newcastle United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560813,
@@ -2994,7 +2994,7 @@
       "awayTeam": "Tottenham Hotspur FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560814,
@@ -3005,7 +3005,7 @@
       "awayTeam": "Everton FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560815,
@@ -3016,7 +3016,7 @@
       "awayTeam": "Crystal Palace FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560816,
@@ -3027,7 +3027,7 @@
       "awayTeam": "Hull City AFC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560817,
@@ -3038,7 +3038,7 @@
       "awayTeam": "Manchester United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560818,
@@ -3049,7 +3049,7 @@
       "awayTeam": "Aston Villa FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560819,
@@ -3060,7 +3060,7 @@
       "awayTeam": "Fulham FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560820,
@@ -3071,7 +3071,7 @@
       "awayTeam": "Ipswich Town FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560821,
@@ -3082,7 +3082,7 @@
       "awayTeam": "Coventry City FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560822,
@@ -3093,7 +3093,7 @@
       "awayTeam": "Brighton & Hove Albion FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560823,
@@ -3104,7 +3104,7 @@
       "awayTeam": "Nottingham Forest FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560824,
@@ -3115,7 +3115,7 @@
       "awayTeam": "Fulham FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560825,
@@ -3126,7 +3126,7 @@
       "awayTeam": "Ipswich Town FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560826,
@@ -3137,7 +3137,7 @@
       "awayTeam": "Manchester City FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560827,
@@ -3148,7 +3148,7 @@
       "awayTeam": "Newcastle United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560828,
@@ -3159,7 +3159,7 @@
       "awayTeam": "Arsenal FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560829,
@@ -3170,7 +3170,7 @@
       "awayTeam": "Hull City AFC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560830,
@@ -3181,7 +3181,7 @@
       "awayTeam": "Everton FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560831,
@@ -3192,7 +3192,7 @@
       "awayTeam": "Brentford FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560832,
@@ -3203,7 +3203,7 @@
       "awayTeam": "AFC Bournemouth",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560833,
@@ -3214,7 +3214,7 @@
       "awayTeam": "Coventry City FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560834,
@@ -3225,7 +3225,7 @@
       "awayTeam": "Manchester United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560835,
@@ -3236,7 +3236,7 @@
       "awayTeam": "Crystal Palace FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560836,
@@ -3247,7 +3247,7 @@
       "awayTeam": "Sunderland AFC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560837,
@@ -3258,7 +3258,7 @@
       "awayTeam": "Liverpool FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560838,
@@ -3269,7 +3269,7 @@
       "awayTeam": "Chelsea FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560839,
@@ -3280,7 +3280,7 @@
       "awayTeam": "Aston Villa FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560840,
@@ -3291,7 +3291,7 @@
       "awayTeam": "Tottenham Hotspur FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560841,
@@ -3302,7 +3302,7 @@
       "awayTeam": "Leeds United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560842,
@@ -3313,7 +3313,7 @@
       "awayTeam": "Ipswich Town FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560843,
@@ -3324,7 +3324,7 @@
       "awayTeam": "Nottingham Forest FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560844,
@@ -3335,7 +3335,7 @@
       "awayTeam": "Hull City AFC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560845,
@@ -3346,7 +3346,7 @@
       "awayTeam": "Fulham FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560846,
@@ -3357,7 +3357,7 @@
       "awayTeam": "Newcastle United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560847,
@@ -3368,7 +3368,7 @@
       "awayTeam": "Arsenal FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560848,
@@ -3379,7 +3379,7 @@
       "awayTeam": "Manchester City FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560849,
@@ -3390,7 +3390,7 @@
       "awayTeam": "Everton FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560850,
@@ -3401,7 +3401,7 @@
       "awayTeam": "Brentford FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560851,
@@ -3412,7 +3412,7 @@
       "awayTeam": "Brighton & Hove Albion FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560852,
@@ -3423,7 +3423,7 @@
       "awayTeam": "Chelsea FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560853,
@@ -3434,7 +3434,7 @@
       "awayTeam": "Sunderland AFC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560854,
@@ -3445,7 +3445,7 @@
       "awayTeam": "Leeds United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560855,
@@ -3456,7 +3456,7 @@
       "awayTeam": "Liverpool FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560856,
@@ -3467,7 +3467,7 @@
       "awayTeam": "Coventry City FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560857,
@@ -3478,7 +3478,7 @@
       "awayTeam": "Aston Villa FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560858,
@@ -3489,7 +3489,7 @@
       "awayTeam": "Manchester United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560859,
@@ -3500,7 +3500,7 @@
       "awayTeam": "Crystal Palace FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560860,
@@ -3511,7 +3511,7 @@
       "awayTeam": "Tottenham Hotspur FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560861,
@@ -3522,7 +3522,7 @@
       "awayTeam": "AFC Bournemouth",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560862,
@@ -3533,7 +3533,7 @@
       "awayTeam": "Manchester City FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560863,
@@ -3544,7 +3544,7 @@
       "awayTeam": "Arsenal FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560864,
@@ -3555,7 +3555,7 @@
       "awayTeam": "Hull City AFC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560865,
@@ -3566,7 +3566,7 @@
       "awayTeam": "Crystal Palace FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560866,
@@ -3577,7 +3577,7 @@
       "awayTeam": "Brighton & Hove Albion FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560867,
@@ -3588,7 +3588,7 @@
       "awayTeam": "Sunderland AFC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560868,
@@ -3599,7 +3599,7 @@
       "awayTeam": "Ipswich Town FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560869,
@@ -3610,7 +3610,7 @@
       "awayTeam": "Coventry City FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560870,
@@ -3621,7 +3621,7 @@
       "awayTeam": "Fulham FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560871,
@@ -3632,7 +3632,7 @@
       "awayTeam": "Liverpool FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560872,
@@ -3643,7 +3643,7 @@
       "awayTeam": "Newcastle United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560873,
@@ -3654,7 +3654,7 @@
       "awayTeam": "Nottingham Forest FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560874,
@@ -3665,7 +3665,7 @@
       "awayTeam": "Manchester United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560875,
@@ -3676,7 +3676,7 @@
       "awayTeam": "AFC Bournemouth",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560876,
@@ -3687,7 +3687,7 @@
       "awayTeam": "Brentford FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560877,
@@ -3698,7 +3698,7 @@
       "awayTeam": "Everton FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560878,
@@ -3709,7 +3709,7 @@
       "awayTeam": "Chelsea FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560879,
@@ -3720,7 +3720,7 @@
       "awayTeam": "Tottenham Hotspur FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560880,
@@ -3731,7 +3731,7 @@
       "awayTeam": "Aston Villa FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560881,
@@ -3742,7 +3742,7 @@
       "awayTeam": "Leeds United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560882,
@@ -3753,7 +3753,7 @@
       "awayTeam": "Liverpool FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560883,
@@ -3764,7 +3764,7 @@
       "awayTeam": "Arsenal FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560884,
@@ -3775,7 +3775,7 @@
       "awayTeam": "Ipswich Town FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560885,
@@ -3786,7 +3786,7 @@
       "awayTeam": "Crystal Palace FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560886,
@@ -3797,7 +3797,7 @@
       "awayTeam": "Aston Villa FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560887,
@@ -3808,7 +3808,7 @@
       "awayTeam": "Coventry City FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560888,
@@ -3819,7 +3819,7 @@
       "awayTeam": "Sunderland AFC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560889,
@@ -3830,7 +3830,7 @@
       "awayTeam": "Chelsea FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560890,
@@ -3841,7 +3841,7 @@
       "awayTeam": "Hull City AFC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560891,
@@ -3852,7 +3852,7 @@
       "awayTeam": "Manchester United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560896,
@@ -3863,7 +3863,7 @@
       "awayTeam": "Fulham FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560897,
@@ -3874,7 +3874,7 @@
       "awayTeam": "Leeds United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560898,
@@ -3885,7 +3885,7 @@
       "awayTeam": "Brighton & Hove Albion FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560899,
@@ -3896,7 +3896,7 @@
       "awayTeam": "Newcastle United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560900,
@@ -3907,7 +3907,7 @@
       "awayTeam": "Everton FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560901,
@@ -3918,7 +3918,7 @@
       "awayTeam": "Tottenham Hotspur FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560892,
@@ -3929,7 +3929,7 @@
       "awayTeam": "AFC Bournemouth",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560893,
@@ -3940,7 +3940,7 @@
       "awayTeam": "Brentford FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560894,
@@ -3951,7 +3951,7 @@
       "awayTeam": "Manchester City FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560895,
@@ -3962,7 +3962,7 @@
       "awayTeam": "Nottingham Forest FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560902,
@@ -3973,7 +3973,7 @@
       "awayTeam": "Hull City AFC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560903,
@@ -3984,7 +3984,7 @@
       "awayTeam": "Crystal Palace FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560904,
@@ -3995,7 +3995,7 @@
       "awayTeam": "Manchester United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560905,
@@ -4006,7 +4006,7 @@
       "awayTeam": "Sunderland AFC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560906,
@@ -4017,7 +4017,7 @@
       "awayTeam": "Liverpool FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560907,
@@ -4028,7 +4028,7 @@
       "awayTeam": "Ipswich Town FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560908,
@@ -4039,7 +4039,7 @@
       "awayTeam": "Chelsea FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560909,
@@ -4050,7 +4050,7 @@
       "awayTeam": "Coventry City FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560910,
@@ -4061,7 +4061,7 @@
       "awayTeam": "Arsenal FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560911,
@@ -4072,7 +4072,7 @@
       "awayTeam": "Aston Villa FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560912,
@@ -4083,7 +4083,7 @@
       "awayTeam": "Everton FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560913,
@@ -4094,7 +4094,7 @@
       "awayTeam": "Brighton & Hove Albion FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560914,
@@ -4105,7 +4105,7 @@
       "awayTeam": "AFC Bournemouth",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560915,
@@ -4116,7 +4116,7 @@
       "awayTeam": "Nottingham Forest FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560916,
@@ -4127,7 +4127,7 @@
       "awayTeam": "Tottenham Hotspur FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560917,
@@ -4138,7 +4138,7 @@
       "awayTeam": "Newcastle United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560918,
@@ -4149,7 +4149,7 @@
       "awayTeam": "Fulham FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560919,
@@ -4160,7 +4160,7 @@
       "awayTeam": "Manchester City FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560920,
@@ -4171,7 +4171,7 @@
       "awayTeam": "Brentford FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     },
     {
       "id": 560921,
@@ -4182,7 +4182,7 @@
       "awayTeam": "Leeds United FC",
       "homeScore": null,
       "awayScore": null,
-      "lastUpdated": "2026-11-06T00:20:28Z"
+      "lastUpdated": "2026-11-07T00:20:31Z"
     }
   ]
 }
